@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retail-pipeline"
+version = "1.0.0"
+description = "Auditable pandas pipeline for cleaning and transforming retail / e-commerce order data"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pandas", "numpy"]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter", "nbformat", "pycountry", "tzdata", "matplotlib"]
+realdata = ["pycountry", "tzdata"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,35 @@
+Dimension,Check,Result,Status,Detail
+Completeness,Order_ID populated,100.0%,PASS,0 NULL of 15 authoritative rows
+Completeness,Customer_ID populated,93.3%,WARN,1 NULL of 15 authoritative rows
+Completeness,Order_TS_UTC populated,93.3%,WARN,1 NULL of 15 authoritative rows
+Completeness,SKU populated,93.3%,WARN,1 NULL of 15 authoritative rows
+Completeness,Qty populated,100.0%,PASS,0 NULL of 15 authoritative rows
+Completeness,Unit_Price populated,100.0%,PASS,0 NULL of 15 authoritative rows
+Completeness,Discount populated,93.3%,WARN,1 NULL of 15 authoritative rows
+Completeness,Currency populated,100.0%,PASS,0 NULL of 15 authoritative rows
+Completeness,Status populated,100.0%,PASS,0 NULL of 15 authoritative rows
+Validity,Rows with no blocking flag,80.0%,WARN,3 of 15 rows in review queue
+Validity,Blocking flag: TS_AMBIGUOUS_NO_TZ,1,WARN,see exceptions table
+Validity,Blocking flag: INVALID_QTY,1,WARN,see exceptions table
+Validity,Blocking flag: RETURN_ON_ORDER_LINE,1,WARN,see exceptions table
+Validity,Blocking flag: SKU_UNKNOWN,1,WARN,see exceptions table
+Validity,Blocking flag: CONFLICTING_DUPLICATE,1,WARN,see exceptions table
+Validity,Order_TS_UTC format (YYYY-MM-DDTHH:MM:SSZ),True,PASS,
+Validity,Timestamps resolved by a declared assumption (source tz / date order),0,INFO,"source_tz=None, date_order=None; filter TS_Status for these rows"
+Validity,Discount basis,"{'RECORDED': 14, 'UNKNOWN': 1}",INFO,"NOT_RECORDED_IN_SOURCE = source has no discount field; net = gross is then a documented policy, not a measurement"
+Uniqueness,Duplicate raw lines superseded,3,INFO,kept in `superseded` table with Duplicate_Of
+Uniqueness,Authoritative Line_Key unique,True,PASS,
+Uniqueness,"Possible duplicate lines (identical on order/SKU/time/qty/price, different line id)",0,INFO,"not dropped: without a source line id, identical rows may be legitimate repeated scans"
+Consistency,Status within vocabulary,"['CANCELLED', 'DELIVERED', 'RETURN_REVIEW', 'SHIPPED', 'TEST']",PASS,
+Consistency,Currency within allowed set,"['INR', 'USD']",PASS,
+Consistency,Order ID matches the configured ID rule,0,PASS,NULL = failed the ID rule
+Consistency,SKU / supplier / category keys exist in reference tables,True,PASS,
+Consistency,One currency per order,1,PASS,
+Consistency,Customer IDs resolve to master (non-null),True,PASS,
+Reconciliation,Raw rows = authoritative + superseded,18 = 15 + 3,PASS,
+Reconciliation,Authoritative = clean + review,15 = 12 + 3,PASS,
+Reconciliation,"Gross (all rows) - superseded = authoritative gross, by currency (exact integers)","{'INR': 1071500, 'USD': 5400}",PASS,
+Reconciliation,Gross by revenue class sums to authoritative gross (minor units),1076900 vs 1076900,PASS,
+Reconciliation,Display floats agree with minor-unit amounts,max |diff| = 0.000000,PASS,
+Reconciliation,Audit log entries (raw -> clean -> rule),67,INFO,
+Reconciliation,Returns: raw (deduped) = linked + exception,4 = 2 + 2,PASS,

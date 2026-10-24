@@ -1,0 +1,7 @@
+Currency,SKU,Product,Units,Gross_Minor,Net_Minor,Lines_Missing_Net,Share_of_Net_%,Rank_in_Currency,Gross,Net
+INR,MUG-BLK,Black Ceramic Mug,6,270000,247500,0,35.8,1,2700.0,2475.0
+INR,TSHIRT-M,Cotton Tee M,2,159800,159800,0,23.1,2,1598.0,1598.0
+INR,HOODIE-L,Hoodie L,2,299800,142405,1,20.6,3,2998.0,1424.05
+INR,BTL-STL,Steel Bottle,2,130000,130000,0,18.8,4,1300.0,1300.0
+INR,NOTE-A5,Spiral Notebook A5,3,12000,12000,0,1.7,5,120.0,120.0
+USD,BAG-01,Canvas Tote,2,3600,3600,0,100.0,1,36.0,36.0

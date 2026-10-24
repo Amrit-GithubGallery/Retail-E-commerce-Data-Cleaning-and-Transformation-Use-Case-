@@ -1,0 +1,918 @@
+Order ID,Customer ID,Order TS,SKU,Product,Qty,Unit Price,Discount,Currency,Status,Channel,Country,Email,Phone,Unit,Line ID,Event Version
+ORD-1359,CUST-011,2026-05-05T16:04:00Z,BAG-01,Canvas Tote,1,18.00,15%,USD,canceled,Mobile App,India,,,,L1,1
+ORD-1014,CUST-007,12-06-2026 21:43,BTL-STL,Steel Bottle,1,650.00,,INR,Shipped,WEB,United States,user7@example.com,,,L1,1
+ORD-1207,,2026-05-20T08:07:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,0.00,INR,Delivered,app,in,user11@example.com,+91 9886299853,,L1,1
+ORD-1287,CUST10,2026-05-29T23:40:00Z,bag_01,Canvas Tote,2,$18.00,10%,USD,Delivered,WEB,US,user10@example.com,+91 9880811787,,L1,1
+ORD1444,CUST-009,2026-06-10T08:10:00Z,MUG-BLK,Blk Ceramic Mug,-1,450.00,90.00,inr,test,WEB,United States,user9@example.com,,,L2,1
+ORD-1435,CUST-008,03-06-2026 03:59,TSHIRT-M,cotton tee m,5000,799.00,39.95,INR,Delivered,store,United States,,,,L1,1
+ ORD-1199 ,CUST-011,2026-05-04T00:29:00Z,mug_blk,Black Ceramic Mug,5,450.00,20%,INR,Return,app,US,user11@example.com,+91 9883514771,,L1,1
+ORD-1313,CUST-011,2026-05-15T12:52:00+05:30,TSHIRT-M,Cotton Tee  M,1,799.00,39.95,INR,Delivered,app,US,user11@example.com,+91 9825911656,,L1,1
+ORD-1085,CUST-012,04-05-2026 20:44,MUG-BLK,Blk Ceramic Mug,5,450.00,,INR,canceled,web,USA,user12@example.com,+91 9895525640,,L3,1
+ORD-1264,CUST-012,2026-05-13T13:24:00Z,btl_stl,Steel Bottle,2,650.00,,INR,Delivered,store,United States,user12@example.com,+91 9824276138,,L2,1
+ord-1422,CUST-012,2026-06-11T18:47:00Z,mug_blk,Black Ceramic Mug,1,450.00,5%,,Delivered,store,USA,,,,L1,1
+ORD-1297,CUST-008,2026-05-10T07:08:00Z,BAG-01,Canvas Tote,2,18.00,0.00,USD,SHIPPED,Mobile App,IN,user8@example.com,+91 9877887931,,L1,1
+ORD1419,cust-008,2026-05-20T10:18:00Z,BAG-01,Canvas Tote,5,18.00,0.00,USD,Delivered,web,India,user8@example.com,+91 9838268399,,L1,1
+ORD-1374,CUST07,2026-05-29T12:20:00Z,NOTE-A5,Spiral Notebook A5,-1,120.00,0.00,INR,Delivered,store,US,,,,L1,1
+ORD-1392,CUST-011,2026-06-12T22:22:00Z,BAG-01,Canvas Tote,5,18.00,,USD,Delivered,app,United States,user11@example.com,+91 9875834718,,L1,1
+ORD-1169,CUST-010,2026-05-19T09:10:00Z,HOODIE-L,Hoodie L,5,1499.00,10%,INR,Delivered,WEB,India,,,,L1,1
+ORD-1388,,2026-05-11T14:34:00Z,TSHIRT-M,Cotton Tee M,-1,799,0.00,INR,Shipped,app,United States,user12@example.com,,,L2,1
+ORD1168,CUST-007,2026-05-04T22:21:00Z,TSHIRT-M,Cotton Tee M,1,799.00,5%,INR,Delivered,Mobile App,United States,,,,L1,2
+ORD-1464,,,hoodie_l,Hoodie L,5,1499.00,299.80,INR,Shipped,store,US,user10@example.com,,,L3,1
+ORD-1328,CUST-008,2026-02-30T10:00:00Z,NOTE-A5,Spiral Notebook A5,2,Rs. 120,12.00,INR,TEST,Mobile App,India,,,,L2,1
+ORD-1194,CUST-010,2026-05-05T13:17:00Z,BAG-01,Canvas Tote,1,18.00,15%,USD,Delivered,app,US,,,,L2,1
+ORD-1017,CUST-009,2026-06-01T23:42:00Z,mug_blk,Blk Ceramic Mug,5,450.00,,INR,Delivered,store,India,user9@example.com,+91 9840942292,,L1,1
+ORD1124,CUST-012,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,,Delivered,Mobile App,USA,user12@example.com,,,L3,1
+ORD-1474,CUST-008,2026-06-02T15:45:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,0.00,INR,Delivered,Mobile App,US,user8@example.com,+91 9881472700,,L1,1
+ORD-1322,CUST-009,2026-06-12T04:37:00Z,BAG-01,Canvas Tote,3,$ 18.00,1.80,USD,Delivered,Website,USA,,,,L2,1
+ORD-1029,CUST-011,2026-06-03T18:45:00Z,BTL-STL,Steel Bottle,2,650.00,5%,INR,Shipped,store,IN,,,,L1,1
+ORD-1103,CUST-008,,btl_stl,Steel Bottle,3,₹650.00,130.00,INR,Delivered,app,US,,,,L1,1
+ORD-1263,,2026-05-09T06:31:00Z,BTL-STL,Steel Bottle,1,650.00,32.50,INR,Delivered,app,US,user7@example.com,+91 9853169737,,L1,1
+ORD-1473,CUST-012,2026-05-23T07:53:00Z,mug_blk,Black Ceramic Mug,-1,450.00,0.00,INR,Return,Website,US,user12@example.com,,,L2,1
+ORD-1032,cust-012,2026-05-06T04:58:00Z,hoodie_l,Hoodie L,2,"₹1,499.00",10%,INR,Pending,WEB,United States,,,,L1,1
+ord-1034,CUST-009,2026-05-27T03:04:00Z,BAG-01,Canvas Tote,6,18.00,2.70,USD,canceled,WEB,United States,user9@example.com,+91 9885291541,,L2,1
+ORD-1352,CUST-92,2026-06-05T03:36:00Z,note_a5,Spiral Notebook A5,-2,Rs. 120,,INR,Delivered,Mobile App,IN,user8@example.com,+91 9869007608,,L1,1
+ORD-1365,CUST-009,2026-05-20T15:06:00Z,MUG-BLK,black ceramic mug,0,450.00,67.50,INR,Delivered,app,USA,user9@example.com,,,L1,1
+ORD-1072,cust-009,2026-05-19T18:21:00-04:00,bag_01,Canvas Tote,2,18.00,0.00,USD,DELIVERED,web,United States,,,,L1,1
+ORD_1401,CUST-007,2026-02-30T10:00:00Z,note_a5,Spiral Notebook A5,2,120.00,0.00,INR,Shipped,WEB,United States,,,,L2,1
+ord-1456,CUST-008,07-06-2026 02:08,BTL-STL,Steel Bottle,0,650.00,,INR,Delivered,WEB,USA,,,,L2,1
+ord-1092,CUST-007,2026-05-18T09:32:00-04:00,BTL-STL,Steel Bottle,2,650.00,97.50,INR,Shipped,Mobile App,US,user7@example.com,+91 9832325567,,L1,1
+ORD-1488,CUST-011,2026-05-07T20:19:00Z,BAG-01,Canvas Tote,1,18,0.00,USD,TEST,store,US,user11@example.com,,,L1,1
+ORD-1269,CUST07,05-06-2026 21:38,TSHIRT-M,Cotton Tee M,2,799.00,,INR,Delivered,store,India,user7@example.com,,,L1,1
+ORD-1034,CUST-009,,MUG-BLK,Blk Ceramic Mug,3,₹ 450.00,20%,INR,TEST,WEB,United States,user9@example.com,+91 9885291541,,L1,1
+ORD-1390,CUST-010,2026-05-22T02:24:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,SHIPPED,Mobile App,India,,,,L1,1
+ORD-1011,CUST-009,2026-05-09T03:02:00Z,bag_01,Canvas Tote,5,18.00,1.80,USD,Delivered,web,USA,user9@example.com,,,L1,1
+ORD_1290,CUST-011,2026-05-01T01:05:00Z,TSHIRT-M,Cotton Tee M,3,799.00,0.00,,Delivered,web,USA,user11@example.com,+91 9824681540,,L1,1
+ORD-1439,CUST-011,2026-06-11T22:52:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,,INR,Delivered,Website,IN,user11@example.com,+91 9880910956,,L1,1
+ORD-1362,CUST-010,2026-05-31T10:48:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Delivered,WEB,India,,,pack,L1,1
+ORD-1456,CUST-96,2026-06-07T02:08:00Z,note_a5,Spiral Notebook A5,0,120.00,0.00,INR,Delivered,WEB,USA,,,,L3,1
+ORD_1135,CUST-97,2026-05-20T05:11:00Z,BAG-01,Canvas Tote,5,$18.00,5%,USD,Cancelled,WEB,United States,,,,L1,1
+ORD-1411,CUST-010,2026-05-25T10:59:00Z,hoodie_l,Hoodie L,1,1499.00,10%,INR,Delivered,web,US,user10@example.com,+91 9819670420,dozen,L1,1
+ORD-1190,CUST-010,2026-05-20T22:28:00Z,HOODIE-L,Hoodie L,0,1499.00,149.90,INR,Delivered,Mobile App,US,user10@example.com,+91 9826001148,,L3,1
+ord-1414,CUST-009,2026-05-12T07:43:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,0.00,,Delivered,Mobile App,USA,,,,L1,1
+ORD-1414,CUST-009,2026-05-12T07:43:00Z,BAG-01,Canvas Tote,0,$18.00,2.70,USD,Delivered,Mobile App,USA,,,,L2,1
+ORD-1051,CUST-008,2026-02-30T10:00:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,10%,INR,delivered,app,United States,user8@example.com,+91 9840181142,,L1,1
+ORD-1241,CUST-009,12-05-2026 06:14,MUG-BLK,Black Ceramic Mug,5,450.00,10%,INR,Pending,Website,IN,,,,L1,1
+ORD-1074,CUST-008,2026-05-21T19:46:00Z,HOODIE-L,Hoodie L,3,₹ 1499.00,0.00,INR,cancelled,store,in,user8@example.com,+91 9875697427,,L1,1
+ORD-1349,CUST12,2026-05-12T20:46:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,6.00,INR,return,web,India,user12@example.com,,,L1,1
+ORD-1293,cust-10,2026-05-31T23:44:00Z,bag_01,Canvas Tote,2,18.00,,USD,TEST,WEB,United States,user10@example.com,,,L1,1
+ORD-1054,CUST-012,2026-06-14 00:24 +05:30,btl_stl,Steel Bottle,3,650.00,5%,INR,Delivered,web,IN,,,dozen,L1,1
+ORD1318,CUST-011,2026-02-30T10:00:00Z,MUG-BLK,black ceramic mug,1,₹ 450.00,20%,Rs,weird,Website,in,user11@example.com,,,L1,1
+ORD-1278,CUST-011,05-05-2026 10:26,MUG-BLK,Black Ceramic Mug,-2,450.00,0.00,Rs,Delivered,Mobile App,United States,user11@example.com,,,L3,1
+ORD-1494,cust-011,2026-05-28T21:59:00Z,mug_blk,Black Ceramic Mug,2,450.00,5%,INR,Delivered,Mobile App,in,user11@example.com,+91 9816711201,,L1,1
+ORD-1364,CUST-011,2026-05-09T02:19:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Delivered,web,United States,user11@example.com,+91 9836658273,,L1,1
+ORD-1153,CUST08,,NOTE-A5,Spiral Notebook A5,1,120.00,6.00,Rs,weird,Website,India,user8@example.com,,,L1,1
+ORD-1070,CUST-008,2026/05/12 07:59 -04:00,HOODIE-L,Hoodie L,3,1499.00,149.90,inr,Return,Mobile App,US,,,,L1,1
+ORD-1228,cust-008,2026-05-27T13:50:00Z,HOODIE-L,Hoodie L,2,1499.00,,INR,Shipped,Mobile App,US,user8@example.com,+91 9855147351,,L1,1
+ORD-1110,,2026/05/26 19:17 -04:00,NOTE-A5,Spiral Notebook A5,5,120.00,0.00,INR,Return,Mobile App,United States,,,,L2,1
+ORD-1240,CUST-010,2026-05-01T21:38:00Z,btl_stl,Steel Bottle,1,₹ 650.00,0.00,,Shipped,web,in,,,,L1,1
+ord-1040,CUST-007,2026-06-04T13:31:00-04:00,HOODIE-L,Hoodie L,2,1499,10%,INR,Delivered,Mobile App,IN,user7@example.com,+91 9878901038,,L1,1
+ORD-1020,CUST-012,2026-05-07T18:44:00Z,BAG-01,Canvas Tote,3,18.00,2.70,USD,Delivered,web,IN,,,,L1,1
+ORD-1286,CUST-011,2026-06-14T23:06:00Z,MUG-BLK,black ceramic mug,2,450.00,0.00,,Shipped,web,USA,user11@example.com,+91 9827590313,,L1,1
+ ORD-1498 ,cust-009,2026-05-03T03:29:00Z,BAG-01,Canvas Tote,5,18.00,20%,USD,Delivered,app,United States,user9@example.com,,,L1,2
+ORD1340,CUST-008,2026-05-21T20:00:00Z,BAG-01,Canvas Tote,1,18.00,,USD,delivered,Mobile App,United States,user8@example.com,,,L1,1
+ord-1158,CUST-007,2026-06-07T09:59:00Z,NOTE-A5,Spiral Notebook A5,1,120,,INR,CANCELLED,store,India,,,,L1,1
+ORD-1186,cust-011,2026-06-03T16:07:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,5%,INR,Delivered,app,in,user11@example.com,+91 9810328387,,L1,1
+ORD-1195,CUST-008,2026-05-11T22:33:00Z,note_a5,Spiral Notebook A5,1,120.00,6.00,INR,Shipped,Mobile App,in,user8@example.com,+91 9850302318,,L1,1
+ORD-1159,CUST-94,2026-05-25T01:23:00-04:00,MUG-BLK,Black Ceramic Mug,2,₹450.00,,INR,Delivered,Website,India,user9@example.com,+91 9825790828,,L1,1
+ORD-1123,cust-8,2026-05-27 07:54 +05:30,TSHIRT-M,cotton tee m,2,799.00,119.85,INR,Delivered,WEB,India,user8@example.com,+91 9878805754,,L1,1
+ORD-1317,CUST-007,2026-05-13T05:04:00Z,BTL-STL,Steel Bottle,1,650.00,15%,inr,Delivered,app,US,user7@example.com,+91 9895398202,,L2,1
+ORD-1230,CUST-012,20-05-2026 00:13,TSHIRT-M,Cotton Tee M,2,799.00,0.00,INR,delivered,app,India,user12@example.com,+91 9884953463,,L1,1
+ORD-1433,cust-008,2026-06-12T09:20:00Z,BAG-01,Canvas Tote,2,18,0.00,USD,Delivered,web,IN,user8@example.com,+91 9823438230,,L1,1
+ORD-1279,CUST-010,2026-06-13T06:15:00Z,BTL-STL,Steel Bottle,5,Rs. 650,5%,INR,Shipped,Mobile App,United States,user10@example.com,,,L2,1
+ORD-1500,CUST-009,2026/05/15 19:18 -04:00,XYZ-999,Cotton Tee M,2,799.00,119.85,INR,Delivered,web,US,,,,L1,1
+ORD-1192,cust-12,2026/05/25 09:09 -04:00,HOODIE-L,Hoodie L,3,1499.00,224.85,INR,Cancelled,web,US,user12@example.com,+91 9830979701,,L1,1
+ORD-1267,,2026-05-21T17:00:00Z,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,Shipped,web,United States,,,,L1,1
+ORD-1028,CUST-009,2026-05-15T20:51:00Z,BAG-01,Canvas Tote,3,$ 18.00,0.90,USD,Delivered,Website,India,,,,L1,1
+ORD-1320,CUST-010,2026-02-30T10:00:00Z,btl_stl,Steel Bottle,3,Rs. 650,20%,INR,Shipped,app,US,user10@example.com,+91 9841154021,,L3,1
+ORD-1395,CUST-010 ,2026-06-14T20:11:00Z,HOODIE-L,Hoodie L,5,1499.00,0.00,INR,Delivered,store,India,user10@example.com,,,L2,1
+ORD-1230,CUST-012,2026-05-20T00:13:00Z,TSHIRT-M,Cotton Tee M,2,799.00,119.85,INR,Delivered,app,India,user12@example.com,+91 9884953463,,L2,1
+ORD-1257,,2026-05-09T05:20:00Z,HOODIE-L,Hoodie L,-1,1499.00,20%,INR,Cancelled,WEB,USA,user10@example.com,,,L1,1
+ORD-1031,cust-012,2026-06-13T20:58:00Z,HOODIE-L,Hoodie L,5,1499.00,0.00,INR,Shipped,Mobile App,United States,user12@example.com,,,L1,1
+ORD_1182,CUST-012,01-06-2026 12:47,mug_blk,Black Ceramic Mug,2,450.00,10%,INR,Delivered,Website,India,,,,L1,1
+ORD-1206,CUST-009,2026-05-31T06:55:00Z,bag_01,Canvas Tote,3,18.00,0.00,usd,Shipped,Mobile App,US,user9@example.com,+91 9836826266,,L1,1
+ORD-1208,CUST-009,2026-06-05T00:44:00Z,bag_01,Canvas Tote,1,18.00,1.80,USD,Delivered,Website,India,user9@example.com,+91 9812928205,,L2,1
+ORD-1300,CUST08,2026-05-09T21:46:00Z,HOODIE-L,Hoodie L,3,₹ 1499.00,,INR,Delivered,Website,United States,user8@example.com,+91 9848398260,,L1,1
+ORD-1142,CUST-007,2026-05-08T14:12:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,15%,INR,Cancelled,Mobile App,USA,,,,L1,1
+ORD-1126,CUST-008,2026-06-08T17:02:00Z,btl_stl,Steel Bottle,3,650.00,0.00,INR,Cancelled,app,India,,,,L1,1
+ORD-1115,CUST-009,2026-05-26T09:34:00Z,BAG-01,Canvas Tote,2,18.00,,USD,Delivered,Mobile App,US,user9@example.com,,,L2,1
+ORD-1209,CUST-007,2026-05-23T12:26:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,Pending,app,US,,,,L1,1
+ORD-1238,CUST-007,2026-05-11T20:01:00Z,XYZ-999,Cotton Tee M,2,799.00,0.00,INR,TEST,Mobile App,United States,,,,L1,1
+ORD-1416,CUST08,25-05-2026 07:13,TSHIRT-M,Cotton Tee M,0,799.00,0.00,INR,Return,Website,India,user8@example.com,+91 9859517025,,L2,1
+ORD-1166,CUST-009,2026-06-06T18:22:00Z,MUG-BLK,black ceramic mug,1,Rs. 450,10%,INR,Delivered,Mobile App,India,user9@example.com,,,L2,1
+ORD-1071,CUST-012,2026-05-28T21:12:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Pending,store,US,user12@example.com,,dozen,L1,1
+ORD-1288,CUST-008 ,2026/06/05 07:59 -04:00,MUG-BLK,Black Ceramic Mug,2,450.00,,INR,Delivered,store,in,user8@example.com,+91 9866786713,,L2,1
+ ORD-1036 ,CUST-007,2026-05-12T01:45:00Z,TSHIRT-M,Cotton Tee M,2,₹ 799.00,0.00,INR,SHIPPED,app,United States,user7@example.com,+91 9820555833,,L1,1
+ORD-1435,CUST-008,2026/06/02 23:59 -04:00,BAG-01,Canvas Tote,-2,18.00,0.90,USD,delivered,store,United States,,,,L2,1
+ORD-1235,CUST-007,2026-06-06T06:27:00Z,mug_blk,black ceramic mug,2,Rs. 450,5%,INR,PENDING,Website,United States,,,,L1,1
+ORD-1145,CUST-011,2026/05/19 00:01 -04:00,BTL-STL,Steel Bottle,1,Rs. 650,130.00,INR,Return,Website,India,user11@example.com,+91 9868316409,,L1,1
+ORD-1114,,2026-05-08T14:50:00Z,TSHIRT-M,Cotton Tee M,5,₹ 799.00,0.00,,cancelled,WEB,IN,,,,L1,1
+ORD-1184,CUST-007,2026-05-15T20:28:00Z,MUG-BLK,black ceramic mug,1,450.00,45.00,INR,Cancelled,Website,in,user7@example.com,+91 9888306842,,L1,1
+ord-1280,CUST-010,2026-05-11T12:16:00Z,hoodie_l,Hoodie L,5,1499.00,15%,Rs,CANCELLED,web,United States,user10@example.com,,,L1,1
+ORD-1272,CUST-008,2026-05-19T05:20:00Z,HOODIE-L,Hoodie L,3,1499.00,20%,INR,DELIVERED,Mobile App,India,,,,L3,1
+ORD-1110,CUST-011,2026-05-26T23:17:00Z,TSHIRT-M,Cotton Tee M,3,799.00,79.90,INR,return,Mobile App,United States,,,,L3,1
+ORD-1240,CUST-010,2026-05-01T17:38:00-04:00,NOTE-A5,Spiral Notebook A5,5,₹ 120.00,0.00,INR,Shipped,web,in,,,,L3,1
+ORD-1410,CUST-012,2026-05-26T11:52:00Z,TSHIRT-M,Cotton Tee M,2,799.00,20%,INR,TEST,WEB,United States,,,,L1,1
+ORD-1356,CUST-011,2026-05-31T10:06:00Z,TSHIRT-M,Cotton Tee M,1,799,0.00,INR,Shipped,Mobile App,United States,,,,L3,1
+ORD-1105,CUST-008,2026-05-05T17:16:00Z,HOODIE-L,Hoodie L,2,₹ 1499.00,299.80,INR,Pending,Mobile App,India,user8@example.com,+91 9886362294,,L1,1
+ORD-1461,CUST-92,2026-05-03T04:20:00Z,TSHIRT-M,Cotton Tee M,-2,799.00,159.80,INR,Shipped,WEB,IN,,,,L3,1
+ORD-1163,cust-008,2026-05-20T15:32:00Z,HOODIE-L,Hoodie L,2,"₹1,499.00",0.00,INR,canceled,store,in,,,,L1,1
+ORD-1320,CUST-010,2026-05-11T04:44:00Z,BAG-01,Canvas Tote,2,18.00,0.90,USD,canceled,app,US,user10@example.com,+91 9841154021,,L2,1
+ORD-1369,CUST-011,2026-05-03T18:31:00Z,tshirt_m,cotton tee m,1,₹ 799.00,15%,INR,DELIVERED,store,in,,,,L1,1
+ORD-1464,CUST-010,2026-05-22T09:48:00Z,BTL-STL,Steel Bottle,2,₹ 650.00,0.00,INR,Shipped,store,US,user10@example.com,,,L2,1
+ORD-1267,CUST-008,2026-05-21T17:00:00Z,HOODIE-L,Hoodie L,0,1499.00,,INR,Shipped,web,United States,,,,L3,1
+ord-1171,CUST-99,,BAG-01,Canvas Tote,1,18.00,0.00,USD,weird,web,India,,,,L1,1
+ORD-1160,CUST-007,2026-05-04T22:03:00Z,TSHIRT-M,cotton tee m,5000,Rs. 799,39.95,INR,TEST,store,United States,user7@example.com,+91 9890010054,,L2,1
+ORD-1331,,2026-05-18T11:30:00Z,HOODIE-L,Hoodie L,5,1499.00,0.00,INR,Shipped,Website,in,,,,L1,1
+ORD-1493,CUST-008,2026-06-01T19:21:00Z,HOODIE-L,Hoodie L,2,1499.00,149.90,INR,Shipped,store,USA,,,,L1,1
+ORD-1046,CUST-007,2026-06-14T16:01:00-04:00,BAG-01,Canvas Tote,1,18.00,2.70,USD,Delivered,app,USA,user7@example.com,+91 9876306502,,L2,1
+ORD_1256,CUST-009,2026-06-05T09:51:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,delivered,app,IN,user9@example.com,,,L1,1
+ORD-1058,CUST-012,2026-06-02T00:10:00Z,BTL-STL,Steel Bottle,3,650.00,0.00,INR,canceled,store,IN,,,,L2,1
+ORD-1255,CUST-008 ,2026-05-25 14:51 +05:30,NOTE-A5,Spiral Notebook A5,2,120.00,24.00,INR,Pending,store,United States,user8@example.com,+91 9846158213,,L1,1
+ORD1295,CUST-92,,HOODIE-L,Hoodie L,2,1499.00,10%,INR,Delivered,Website,US,user9@example.com,+91 9836777331,,L2,1
+ORD-1037,CUST-012,2026-05-04T10:18:00Z,HOODIE-L,Hoodie L,5,1499.00,224.85,INR,Delivered,Mobile App,USA,user12@example.com,,,L1,2
+ORD-1128,CUST-012,2026-06-01T02:08:00Z,tshirt_m,Cotton Tee M,5,799.00,0.00,INR,Delivered,Mobile App,United States,,,dozen,L1,1
+ORD-1111,cust-008,2026-06-03T10:54:00Z,TSHIRT-M,Cotton Tee M,3,799.00,0.00,INR,Delivered,WEB,in,user8@example.com,+91 9867513345,,L1,1
+ORD-1350,CUST-010,2026-05-19T00:52:00Z,BTL-STL,Steel Bottle,1,650.00,65.00,INR,weird,WEB,IN,,,,L2,1
+ ORD-1221 ,cust-11,2026-05-20T22:59:00Z,mug_blk,Black Ceramic Mug,1,450.00,10%,INR,Pending,Mobile App,USA,,,,L1,1
+ORD-1317,CUST-007,2026-05-13T05:04:00Z,tshirt_m,Cotton Tee M,3,799.00,15%,,Delivered,app,US,user7@example.com,+91 9895398202,,L1,1
+ORD-1275,CUST-009,2026-05-18T00:09:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,0.00,INR,Delivered,store,IN,user9@example.com,+91 9870410362,,L3,1
+ORD-1445,CUST-008,2026-05-29T10:29:00Z,HOODIE-L,Hoodie L,1,1499.00,5%,INR,Cancelled,web,United States,user8@example.com,+91 9895074507,,L1,1
+ORD1030,CUST-008,2026-05-25T14:03:00Z,TSHIRT-M,Cotton Tee M,3,₹ 799.00,0.00,INR,weird,Website,IN,user8@example.com,+91 9898725654,,L1,1
+ORD-1174,CUST-011,2026-05-17T11:17:00Z,NOTE-A5,Spiral Notebook A5,-1,120.00,0.00,INR,Cancelled,WEB,India,,,,L1,1
+ORD-1155,CUST-011,2026-05-17T08:00:00+05:30,XYZ-999,Spiral Notebook A5,0,120.00,20%,INR,TEST,WEB,US,,,,L2,1
+ORD1325,CUST12,2026-05-12T12:23:00Z,NOTE-A5,Spiral Notebook A5,5001,120.00,0.00,INR,Delivered,store,US,user12@example.com,+91 9886796822,,L3,1
+ORD-1179,CUST-007,2026-02-30T10:00:00Z,BAG-01,Canvas Tote,1,18.00,20%,USD,Cancelled,store,India,user7@example.com,+91 9818993381,,L1,1
+ORD-1407,CUST-007,2026-05-05T14:54:00Z,TSHIRT-M,Cotton Tee  M,0,799.00,0.00,INR,TEST,web,US,user7@example.com,+91 9891229370,,L2,1
+ORD-1232,CUST-009,2026-06-11T10:17:00Z,BAG-01,Canvas Tote,5,18.00,10%,USD,weird,web,United States,user9@example.com,+91 9872101932,,L1,1
+ORD-1170,CUST-009,2026-05-30T11:33:00Z,MUG-BLK,Blk Ceramic Mug,1,450.00,,inr,Pending,Website,in,user9@example.com,+91 9861561575,,L2,1
+ORD-1022,CUST-008,2026-02-30T10:00:00Z,mug_blk,Blk Ceramic Mug,2,450.00,0.00,INR,Shipped,WEB,IN,user8@example.com,+91 9898930456,,L2,1
+ORD_1358,cust-11,2026-06-09T03:16:00Z,TSHIRT-M,Cotton Tee  M,5,799.00,15%,INR,delivered,WEB,India,user11@example.com,+91 9881559021,,L3,1
+ORD-1088,CUST-010,2026-05-16T15:46:00Z,TSHIRT-M,Cotton Tee  M,1,₹ 799.00,0.00,INR,Cancelled,app,US,,,,L1,1
+ORD_1456,CUST-008 ,2026-06-07T02:08:00Z,TSHIRT-M,cotton tee m,1,Rs. 799,,INR,Delivered,WEB,USA,,,dozen,L1,1
+ORD-1468,CUST-008,,BTL-STL,Steel Bottle,1,650.00,0.00,INR,weird,Website,India,user8@example.com,+91 9846138454,,L1,1
+ ORD-1498 ,cust-009,2026-05-03T03:29:00Z,BAG-01,Canvas Tote,5,18.00,20%,USD,Delivered,app,United States,user9@example.com,,,L1,1
+ORD-1307,CUST-012,2026-02-30T10:00:00Z,BTL-STL,Steel Bottle,-1,650.00,0.00,,Cancelled,app,in,user12@example.com,,,L3,1
+ORD-1388,CUST-012,2026-05-11T14:34:00Z,note_a5,Spiral Notebook A5,5,120.00,,INR,Shipped,app,United States,user12@example.com,,,L3,1
+ORD_1014,CUST-007,2026/06/12 17:43 -04:00,HOODIE-L,Hoodie L,1,1499.00,,INR,Shipped,WEB,United States,user7@example.com,,,L2,1
+ORD-1014,CUST-007,12-06-2026 21:43,BTL-STL,Steel Bottle,1,650.00,,INR,Delivered,WEB,United States,user7@example.com,,,L1,2
+ORD-1368,CUST-012,18-05-2026 15:11,BAG-01,Canvas Tote,1,18.00,0.00,USD,Shipped,store,US,,,dozen,L1,1
+ORD-1224,CUST-009,2026-05-29T00:56:00Z,mug_blk,Black Ceramic Mug,0,450.00,45.00,INR,Shipped,web,US,user9@example.com,+91 9824072446,,L1,1
+ORD-1280,cust-010,2026-05-11T12:16:00Z,btl_stl,Steel Bottle,5000,650.00,,INR,Cancelled,web,United States,user10@example.com,,,L3,1
+ORD-1133,CUST-012 ,2026-06-13T12:51:00Z,MUG-BLK,black ceramic mug,1,450.00,0.00,INR,Shipped,store,USA,user12@example.com,+91 9855283492,,L3,1
+ ORD-1053 ,CUST-008,2026-05-19T12:27:00Z,BAG-01,Canvas Tote,2,18.00,0.00,USD,Shipped,Mobile App,United States,,,,L1,1
+ORD-1037,CUST-012,2026-05-04T10:18:00Z,HOODIE-L,Hoodie L,5,1499.00,224.85,INR,Shipped,Mobile App,USA,user12@example.com,,,L1,1
+ORD-1189,CUST-011 ,2026/05/16 15:55 -04:00,tshirt_m,cotton tee m,2,799.00,,INR,Return,WEB,India,user11@example.com,,,L2,1
+ORD-1113,CUST-007,2026-05-31T10:39:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,inr,TEST,WEB,India,user7@example.com,+91 9896203262,,L1,1
+ORD-1038,CUST-009,2026-05-17T23:15:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,0.00,INR,Shipped,Mobile App,in,,,,L2,1
+ORD-1162,CUST-008,2026-05-08T21:03:00Z,hoodie_l,Hoodie L,5,1499.00,74.95,,Delivered,store,United States,,,,L3,1
+ORD-1181,CUST-011,2026-05-31T07:17:00Z,BTL-STL,Steel Bottle,1,₹ 650.00,5%,INR,Cancelled,Mobile App,US,,,,L1,1
+ORD-1233,CUST-012,2026-06-13T00:56:00Z,tshirt_m,Cotton Tee  M,-1,799.00,159.80,INR,Delivered,app,United States,user12@example.com,,,L2,1
+ORD-1474,CUST-008,2026-06-02T15:45:00Z,bag_01,Canvas Tote,1,18.00,2.70,USD,Delivered,Mobile App,US,user8@example.com,+91 9881472700,,L2,1
+ORD-1383,CUST-008,2026-05-26T13:29:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Return,Website,IN,user8@example.com,+91 9847746670,,L1,1
+ORD_1286,CUST-011,2026-06-14T23:06:00Z,note_a5,Spiral Notebook A5,1,120.00,15%,INR,Shipped,web,USA,user11@example.com,+91 9827590313,,L2,1
+ORD-1321,CUST-008,2026-06-04T02:06:00Z,mug_blk,Black Ceramic Mug,2,450,90.00,INR,Shipped,Mobile App,IN,,,,L1,1
+ORD-1003,,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,0,1499.00,15%,INR,Return,WEB,US,user9@example.com,+91 9845264581,,L1,1
+ORD-1025,CUST-010,2026-06-05T13:38:00Z,note_a5,Spiral Notebook A5,1,120.00,24.00,INR,Delivered,WEB,United States,,,,L1,2
+ORD-1144,CUST-007,2026-05-28T02:09:00Z,bag_01,Canvas Tote,3,18.00,0.00,USD,Delivered,store,USA,,,,L2,1
+ORD-1262,,2026-05-12T08:29:00Z,tshirt_m,Cotton Tee  M,2,799.00,0.00,INR,Return,Website,United States,user8@example.com,+91 9845370495,,L1,1
+ORD-1183,CUST-010,2026-06-12T05:25:00Z,HOODIE-L,Hoodie L,2,1499.00,224.85,INR,Cancelled,app,United States,user10@example.com,+91 9883302419,,L1,1
+ORD-1431,CUST-010,2026-06-04T02:54:00Z,mug_blk,Black Ceramic Mug,3,450.00,0.00,INR,weird,Mobile App,IN,,,,L1,1
+ORD-1046,CUST-92,2026-06-14T20:01:00Z,BAG-01,Canvas Tote,1,18.00,15%,USD,Delivered,app,USA,user7@example.com,+91 9876306502,,L3,1
+ORD-1111,cust-008,2026-06-03T10:54:00Z,TSHIRT-M,Cotton Tee M,3,799.00,0.00,INR,Delivered,WEB,in,user8@example.com,+91 9867513345,,L1,2
+ORD-1408,CUST-012 ,2026-06-01T22:11:00Z,BTL-STL,Steel Bottle,0,650.00,32.50,INR,DELIVERED,web,USA,user12@example.com,+91 9878477351,,L1,1
+ORD-1313,CUST-011,2026-02-30T10:00:00Z,mug_blk,Black Ceramic Mug,5000,450.00,45.00,inr,Delivered,app,US,user11@example.com,+91 9825911656,,L2,1
+ORD-1478,CUST-011,,hoodie_l,Hoodie L,-1,1499.00,149.90,INR,Shipped,web,India,user11@example.com,+91 9865778794,,L3,1
+ORD-1243,CUST-011,2026-05-24T16:03:00Z,btl_stl,Steel Bottle,2,650.00,130.00,Rs,Delivered,Mobile App,US,,,,L1,1
+ORD-1435,,2026-06-02T23:59:00-04:00,tshirt_m,Cotton Tee  M,-2,799.00,0.00,INR,Delivered,store,United States,,,,L3,1
+ORD-1012,CUST-008,2026-05-29T00:18:00Z,BTL-STL,Steel Bottle,3,650.00,10%,INR,DELIVERED,app,India,user8@example.com,+91 9810054484,,L1,1
+ORD-1039,CUST-011,2026-05-06T23:08:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,20%,INR,Return,WEB,India,user11@example.com,+91 9834272734,,L1,1
+ORD-1005,CUST08,2026-05-05T07:01:00Z,note_a5,Spiral Notebook A5,5,120.00,0.00,INR,weird,Mobile App,United States,user8@example.com,+91 9866851760,,L1,1
+ord-1188,CUST-007,2026-05-10T21:58:00Z,note_a5,Spiral Notebook A5,3,120,10%,inr,Cancelled,WEB,United States,user7@example.com,+91 9835288872,,L3,1
+ORD1138,CUST-012,2026-05-03T13:35:00-04:00,BAG-01,Canvas Tote,3,18.00,0.90,usd,Delivered,Website,US,user12@example.com,+91 9881988124,,L1,1
+ORD-1215,CUST12,2026-05-15T01:20:00Z,btl_stl,Steel Bottle,1,650.00,15%,INR,weird,Website,USA,user12@example.com,+91 9885075065,,L1,1
+ORD-1132,CUST-009,2026-05-12T19:44:00Z,BAG-01,Canvas Tote,5,18.00,0.00,USD,weird,web,US,user9@example.com,+91 9844589898,,L1,1
+ORD-1330,CUST-010,2026-05-26T00:33:00Z,BTL-STL,Steel Bottle,5000,650.00,0.00,inr,Return,Website,US,,,,L2,1
+ORD-1057,CUST-010,,TSHIRT-M,Cotton Tee M,1,799.00,0.00,INR,shipped,Mobile App,US,,,,L2,1
+ORD-1163,CUST-008,2026-05-20T15:32:00Z,TSHIRT-M,Cotton Tee M,1,Rs. 799,79.90,INR,Shipped,store,in,,,,L2,1
+ORD1177,CUST-010,2026-05-11T22:42:00Z,XYZ-999,Cotton Tee M,2,799.00,159.80,INR,Return,store,US,user10@example.com,,,L1,1
+ORD-1013,CUST-010,,TSHIRT-M,Cotton Tee M,2,799.00,20%,INR,Cancelled,Mobile App,IN,user10@example.com,,,L3,1
+ORD_1025,CUST-010,2026-06-05T13:38:00Z,note_a5,Spiral Notebook A5,5,120.00,10%,INR,delivered,WEB,United States,,,,L2,1
+ORD-1232,CUST-009,2026-06-11T10:17:00Z,BAG-01,Canvas Tote,5,18.00,10%,USD,Delivered,web,United States,user9@example.com,+91 9872101932,,L1,2
+ORD-1212,CUST-008,2026-05-20T18:07:00Z,XYZ-999,Cotton Tee M,3,799.00,5%,INR,Pending,store,India,user8@example.com,,,L3,1
+ORD-1497,CUST-008,2026-06-09T19:19:00Z,btl_stl,Steel Bottle,1,650.00,32.50,INR,Shipped,web,in,user8@example.com,+91 9858098925,,L2,1
+ORD-1500,CUST-009,2026/05/15 19:18 -04:00,NOTE-A5,Spiral Notebook A5,2,120.00,15%,inr,Delivered,web,US,,,,L2,1
+ORD-1104,CUST-008,2026-05-17T06:56:00Z,BAG-01,Canvas Tote,2,$ 18.00,0.00,USD,Delivered,Website,IN,,,,L2,1
+ORD-1219,CUST-010,2026-05-26T07:04:00Z,MUG-BLK,Black Ceramic Mug,5,₹450.00,15%,,Return,Mobile App,US,,,,L1,1
+ORD-1038,CUST-009,2026-05-17T23:15:00Z,MUG-BLK,Black Ceramic Mug,5,₹450.00,0.00,INR,Shipped,Mobile App,in,,,,L1,1
+ORD-1254,CUST-011,2026-05-24T05:42:00Z,BAG-01,Canvas Tote,1,18.00,2.70,,Delivered,web,India,user11@example.com,+91 9816004304,,L1,1
+ORD-1371,CUST-010,2026-06-12T06:17:00Z,BTL-STL,Steel Bottle,1,650.00,32.50,INR,Shipped,Mobile App,IN,,,,L2,1
+ORD-1305,CUST-012,2026-06-07 09:12 +05:30,HOODIE-L,Hoodie L,1,1499.00,15%,INR,delivered,Website,United States,,,,L2,1
+ORD-1154,,2026-05-19T15:59:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,,,Delivered,WEB,in,user10@example.com,+91 9810882216,,L1,1
+ORD-1442,CUST-010,2026-06-07T04:27:00Z,BTL-STL,Steel Bottle,5000,650.00,5%,INR,SHIPPED,app,IN,,,,L1,1
+ORD-1108,CUST-010,2026-05-01T04:44:00Z,NOTE-A5,Spiral Notebook A5,0,120.00,0.00,INR,TEST,Mobile App,USA,user10@example.com,+91 9868090825,,L1,1
+ORD-1298,CUST-012,2026-06-01T20:10:00Z,TSHIRT-M,Cotton Tee M,2,799.00,20%,INR,Delivered,store,IN,user12@example.com,+91 9848927998,,L3,1
+ORD-1354,CUST-008,2026-05-20T01:55:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,DELIVERED,store,United States,user8@example.com,,,L1,1
+ORD-1162,CUST-008,2026-05-08T21:03:00Z,HOODIE-L,Hoodie L,1,1499.00,,INR,DELIVERED,store,United States,,,,L1,1
+ORD-1468,CUST-008,2026-06-01T02:35:00Z,bag_01,Canvas Tote,2,18.00,15%,USD,Shipped,Website,India,user8@example.com,+91 9846138454,,L3,1
+ORD1295,CUST-92,2026-06-06T14:35:00Z,HOODIE-L,Hoodie L,2,1499.00,10%,INR,Delivered,Website,US,user9@example.com,+91 9836777331,,L2,1
+ord-1202,CUST-012,2026-06-14T00:27:00Z,BAG-01,Canvas Tote,3,18,0.90,USD,Return,store,IN,,,,L1,1
+ORD-1477,CUST-007,2026-05-25T22:32:00Z,NOTE-A5,Spiral Notebook A5,2,Rs. 120,18.00,INR,Delivered,WEB,US,user7@example.com,+91 9815968073,,L1,1
+ORD-1457,CUST-008,2026-06-14T18:42:00Z,BTL-STL,Steel Bottle,3,650.00,,INR,Delivered,Website,in,user8@example.com,+91 9815414590,,L2,1
+ORD1401,CUST-007,04-05-2026 22:02,BAG-01,Canvas Tote,5000,18.00,10%,USD,Shipped,WEB,United States,,,,L1,1
+ORD-1480,CUST-007,2026-06-10T10:02:00Z,BAG-01,Canvas Tote,3,$18.00,0.00,,Delivered,web,India,,,,L2,1
+ORD-1027,CUST-009,2026-05-09T21:35:00-04:00,BAG-01,Canvas Tote,1,18.00,15%,USD,Delivered,web,India,,,,L2,2
+ORD-1175,CUST-012,2026-05-19T18:39:00Z,bag_01,Canvas Tote,1,18.00,15%,USD,canceled,Website,IN,,,,L2,1
+ORD-1471,CUST-010,2026-05-03T15:45:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,INR,TEST,WEB,US,,,,L1,1
+ORD-1208,CUST-009,2026-06-05T00:44:00Z,HOODIE-L,Hoodie L,2,1499.00,15%,INR,Delivered,Website,India,user9@example.com,+91 9812928205,,L1,1
+ORD-1141,CUST-009,2026-05-11T01:05:00Z,TSHIRT-M,Cotton Tee M,0,799.00,15%,INR,Delivered,web,India,,,,L2,1
+ORD-1266,CUST-012,2026/05/28 08:59 -04:00,NOTE-A5,Spiral Notebook A5,2,120.00,6.00,INR,Delivered,web,United States,,,,L2,1
+ORD-1165,CUST-011,2026-06-06 13:14 +05:30,BTL-STL,Steel Bottle,2,Rs. 650,5%,INR,Cancelled,web,US,user11@example.com,+91 9856109986,,L1,1
+ORD-1003,CUST-009,2026-05-07T08:30:00Z,TSHIRT-M,Cotton Tee M,2,799.00,119.85,inr,Return,WEB,US,user9@example.com,+91 9845264581,,L3,1
+ORD-1485,,2026-05-21T05:01:00+05:30,BTL-STL,Steel Bottle,2,650.00,0.00,INR,Shipped,Mobile App,USA,,,,L2,1
+ORD-1081,CUST-008 ,2026-05-18T14:31:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,,inr,TEST,Mobile App,in,,,,L1,1
+ORD-1198,CUST-012,2026-06-11T18:06:00Z,TSHIRT-M,Cotton Tee M,2,799.00,20%,INR,Delivered,app,USA,,,,L2,1
+ORD-1474,CUST-008,2026-06-02T15:45:00Z,HOODIE-L,Hoodie L,5,1499.00,299.80,INR,Delivered,Mobile App,US,user8@example.com,+91 9881472700,,L3,1
+ORD-1047,CUST-007,2026/05/04 12:43 -04:00,tshirt_m,Cotton Tee M,2,799.00,20%,INR,Delivered,store,India,user7@example.com,+91 9887412924,,L3,1
+ORD-1105,CUST-008,2026-05-05T17:16:00Z,btl_stl,Steel Bottle,5,650.00,0.00,INR,PENDING,Mobile App,India,user8@example.com,+91 9886362294,,L2,1
+ ORD-1223 ,CUST-009,2026-05-17T14:51:00-04:00,MUG-BLK,Black Ceramic Mug,1,450.00,67.50,INR,Cancelled,WEB,United States,,,,L1,1
+ORD-1197,CUST-011,03-06-2026 10:14,mug_blk,black ceramic mug,1,450.00,5%,INR,TEST,WEB,in,user11@example.com,+91 9899149714,,L1,1
+ORD-1168,cust-7,2026-05-04T22:21:00Z,MUG-BLK,Black Ceramic Mug,5000,450.00,20%,INR,Delivered,Mobile App,United States,,,,L3,1
+ORD-1311,,2026-05-05T21:42:00Z,HOODIE-L,Hoodie L,2,1499.00,299.80,INR,Delivered,web,United States,,,,L1,1
+ORD-1384,cust-012,2026-05-26T19:04:00Z,btl_stl,Steel Bottle,2,650.00,0.00,Rs,Delivered,web,India,user12@example.com,+91 9821409917,,L1,1
+ORD-1413,CUST-010,2026-06-08T22:34:00+05:30,TSHIRT-M,Cotton Tee M,5,799.00,15%,INR,Shipped,web,USA,,,,L1,1
+ORD-1443,CUST-007,2026-02-30T10:00:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,,INR,Delivered,Website,in,user7@example.com,,,L2,1
+ORD-1214,CUST-012,2026-05-10T16:15:00Z,BAG-01,Canvas Tote,1,18.00,10%,USD,Cancelled,app,IN,user12@example.com,+91 9831050667,,L2,1
+ ORD-1001 ,CUST-012,2026-05-06T01:36:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,6.00,INR,Delivered,store,IN,user12@example.com,+91 9839958838,,L3,1
+ORD_1284,CUST-009,2026-05-27T17:01:00Z,MUG-BLK,black ceramic mug,1,450,45.00,INR,Cancelled,app,US,user9@example.com,+91 9896583583,,L1,1
+ ORD-1278 ,CUST-011,2026-05-05T10:26:00Z,BAG-01,Canvas Tote,3,18.00,,USD,Delivered,Mobile App,United States,user11@example.com,,,L2,1
+ ORD-1191 ,CUST-011,2026-05-16T15:19:00Z,HOODIE-L,Hoodie L,1,"Rs. 1,499",74.95,INR,canceled,WEB,IN,,,,L1,1
+ORD-1150,CUST-008,11-05-2026 12:13,MUG-BLK,Black Ceramic Mug,1,450.00,45.00,INR,Delivered,web,United States,,,,L2,1
+ORD-1082,CUST-009,2026-05-06T18:38:00Z,bag_01,Canvas Tote,2,$ 18.00,0.00,USD,weird,store,IN,,,,L1,1
+ORD-1283,CUST-007,2026-05-27T13:29:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,10%,inr,TEST,app,India,,,,L1,1
+ORD-1467,CUST-007,2026-02-30T10:00:00Z,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,Shipped,Mobile App,USA,,,,L2,1
+ORD-1309,cust-7,2026-05-14T05:42:00Z,TSHIRT-M,Cotton Tee M,2,799.00,159.80,INR,TEST,web,IN,,,,L1,1
+ ORD-1188 ,CUST-007,2026-05-10T17:58:00-04:00,NOTE-A5,Spiral Notebook A5,-1,120.00,0.00,INR,cancelled,WEB,United States,user7@example.com,+91 9835288872,,L2,1
+ORD-1418,CUST-98,14-05-2026 10:40,HOODIE-L,Hoodie L,2,1499.00,15%,INR,Pending,Mobile App,IN,user7@example.com,+91 9861882781,,L2,1
+ORD-1467,CUST-007,2026-06-02 23:17 +05:30,MUG-BLK,black ceramic mug,1,450.00,15%,INR,SHIPPED,Mobile App,USA,,,,L3,1
+ORD-1247,CUST-012,2026-06-12T20:55:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,canceled,WEB,United States,user12@example.com,+91 9852060116,,L1,1
+ORD_1286,CUST-011,2026-02-30T10:00:00Z,note_a5,Spiral Notebook A5,1,120.00,15%,INR,Shipped,web,USA,user11@example.com,+91 9827590313,,L2,1
+ORD-1328,CUST-008,2026-02-30T10:00:00Z,NOTE-A5,Spiral Notebook A5,1,Rs. 120,12.00,INR,TEST,Mobile App,India,,,,L2,1
+ORD1201,CUST-008,2026-05-12T21:56:00Z,hoodie_l,Hoodie L,0,1499.00,74.95,INR,Delivered,web,US,,,,L3,1
+ORD-1203,CUST-009,2026/05/02 20:14 -04:00,HOODIE-L,Hoodie L,2,"Rs. 1,499",74.95,inr,SHIPPED,app,United States,,,,L1,1
+ORD-1264,CUST-97,,NOTE-A5,Spiral Notebook A5,1,₹ 120.00,10%,INR,Delivered,store,United States,user12@example.com,+91 9824276138,,L3,1
+ORD-1358,CUST-011,2026-06-09 08:46 +05:30,tshirt_m,cotton tee m,0,799.00,159.80,INR,Delivered,WEB,India,user11@example.com,+91 9881559021,,L1,1
+ORD-1359,CUST-011,2026-05-05T16:04:00Z,tshirt_m,Cotton Tee M,5000,799.00,119.85,INR,TEST,Mobile App,India,,,,L2,1
+ORD-1112,CUST-012,2026-05-15T11:11:00Z,HOODIE-L,Hoodie L,3,1499.00,0.00,INR,Cancelled,web,USA,user12@example.com,,,L1,1
+ORD-1037,CUST-012,2026-05-04T10:18:00Z,HOODIE-L,Hoodie L,2,1499.00,5%,INR,Shipped,Mobile App,USA,user12@example.com,,dozen,L2,1
+ORD-1077,CUST-007,2026-06-03T06:22:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,45.00,INR,canceled,store,United States,,,,L1,1
+ORD-1270,CUST-012,2026-06-11T18:38:00-04:00,btl_stl,Steel Bottle,1,Rs. 650,97.50,INR,Cancelled,WEB,US,user12@example.com,+91 9876719940,,L1,1
+ORD-1387,CUST-007,2026-05-12T01:22:00Z,MUG-BLK,Black Ceramic Mug,5,₹ 450.00,15%,INR,test,Website,IN,user7@example.com,+91 9830670352,dozen,L1,1
+ORD-1337,CUST-008,2026-05-29T10:31:00Z,BTL-STL,Steel Bottle,5,650.00,0.00,inr,Shipped,Mobile App,IN,user8@example.com,+91 9885818579,,L1,1
+ORD-1214,CUST-012,2026-05-10T16:15:00Z,hoodie_l,Hoodie L,5000,1499,,INR,canceled,app,IN,user12@example.com,+91 9831050667,,L1,1
+ORD-1319,CUST-009,2026-05-20T08:22:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,,INR,Shipped,Website,IN,user9@example.com,+91 9846782333,,L1,1
+ORD-1067,CUST-007,2026-06-02T23:43:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,,INR,Delivered,WEB,USA,,,dozen,L1,1
+ORD_1447,CUST-008,2026-05-08T23:56:00Z,bag_01,Canvas Tote,2,18.00,15%,USD,Delivered,WEB,USA,,,,L1,1
+ORD_1402,CUST-009,2026-05-22T06:37:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,10%,INR,Delivered,Website,United States,,,,L1,1
+ORD_1197,CUST-011,2026-06-03T10:14:00Z,BAG-01,Canvas Tote,5,$18.00,0.90,USD,TEST,WEB,in,user11@example.com,+91 9899149714,,L2,1
+ORD-1477,CUST-007,2026-05-25T22:32:00Z,XYZ-999,Black Ceramic Mug,1,450.00,90.00,INR,Delivered,WEB,US,user7@example.com,+91 9815968073,,L3,1
+ORD_1388,CUST-012,2026-05-11T14:34:00Z,TSHIRT-M,Cotton Tee M,2,₹ 799.00,159.80,INR,Shipped,app,United States,user12@example.com,,,L1,1
+ORD_1261,CUST-011,2026-06-03T00:58:00Z,XYZ-999,Black Ceramic Mug,5000,450.00,0.00,Rs,SHIPPED,Website,IN,,,,L1,1
+ORD-1220,CUST-012,2026-02-30T10:00:00Z,BAG-01,Canvas Tote,5,18.00,10%,USD,Return,store,USA,,,,L1,1
+ORD-1242,CUST12,2026-05-19T13:35:00-04:00,BAG-01,Canvas Tote,1,18.00,0.00,USD,Delivered,web,IN,,,,L2,2
+ORD-1461,CUST-007,2026-05-03T04:20:00Z,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,Shipped,WEB,IN,,,,L2,1
+ORD-1166,CUST-009,2026-06-06T18:22:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,20%,INR,Delivered,Mobile App,India,user9@example.com,,,L3,1
+ord-1090,CUST-007,2026-05-03T13:21:00Z,NOTE-A5,Spiral Notebook A5,3,120,10%,INR,Shipped,web,in,user7@example.com,+91 9880658723,,L3,1
+ORD-1477,CUST-007,2026-05-25T22:32:00Z,mug_blk,Blk Ceramic Mug,1,450.00,0.00,INR,Delivered,WEB,US,user7@example.com,+91 9815968073,dozen,L2,1
+ORD-1178,CUST-91,2026-05-29T12:38:00Z,btl_stl,Steel Bottle,1,650.00,32.50,INR,Delivered,Mobile App,United States,user9@example.com,+91 9894195455,,L1,1
+ORD-1265,CUST-011,2026-05-21T17:27:00Z,note_a5,Spiral Notebook A5,2,₹ 120.00,0.00,INR,delivered,app,India,user11@example.com,,,L1,1
+ord-1456,CUST-008,07-06-2026 02:08,BTL-STL,Steel Bottle,0,650.00,,INR,Delivered,WEB,USA,,,,L2,2
+ORD-1042,CUST-007,2026-02-30T10:00:00Z,bag_01,Canvas Tote,2,18.00,15%,USD,Pending,store,IN,user7@example.com,+91 9835140847,,L3,1
+ORD_1469,cust-7,2026-06-12T03:47:00Z,MUG-BLK,Black Ceramic Mug,1,₹ 450.00,20%,INR,Shipped,WEB,US,,,,L1,1
+ORD-1097,,2026-02-30T10:00:00Z,BTL-STL,Steel Bottle,2,650.00,10%,INR,Cancelled,Mobile App,IN,,,dozen,L2,1
+ord-1485,CUST-99,2026-05-20T23:31:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,24.00,INR,canceled,Mobile App,USA,,,,L3,1
+ORD-1451,CUST-009,2026-06-09 12:13 +05:30,bag_01,Canvas Tote,1,$18.00,2.70,USD,Cancelled,web,India,user9@example.com,+91 9881183035,,L1,1
+ORD-1033,CUST-008,2026-05-26T07:42:00Z,hoodie_l,Hoodie L,3,"₹1,499.00",149.90,INR,Cancelled,app,United States,user8@example.com,,,L1,1
+ORD-1159,CUST-94,2026-05-25T01:23:00-04:00,MUG-BLK,Black Ceramic Mug,1,₹450.00,,INR,Delivered,Website,India,user9@example.com,+91 9825790828,,L1,1
+ORD-1065,CUST-008,2026-06-08T04:03:00Z,note_a5,Spiral Notebook A5,2,120.00,10%,INR,TEST,Mobile App,in,user8@example.com,+91 9892391596,,L1,1
+ORD-1493,CUST-008,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,2,1499.00,149.90,INR,Shipped,store,USA,,,,L1,1
+ORD-1267,,,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,Shipped,web,United States,,,,L1,1
+ORD-1069,CUST-009,2026-05-18T02:45:00Z,BTL-STL,Steel Bottle,5000,650.00,0.00,INR,Delivered,web,USA,user9@example.com,,,L1,1
+ORD-1085,CUST-012,,BAG-01,Canvas Tote,2,18,0.00,usd,Shipped,web,USA,user12@example.com,+91 9895525640,dozen,L2,1
+ORD-1013,CUST-010,2026-05-10T23:01:00Z,HOODIE-L,Hoodie L,2,1499,0.00,INR,Cancelled,Mobile App,IN,user10@example.com,,,L2,1
+ORD-1275,CUST-009,2026-05-18T00:09:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,0.00,INR,Delivered,store,IN,user9@example.com,+91 9870410362,,L3,2
+ORD-1103,,2026-05-03T23:18:00Z,mug_blk,Black Ceramic Mug,2,450,22.50,INR,delivered,app,US,,,,L2,1
+ORD-1174,,2026-05-17T11:17:00Z,HOODIE-L,Hoodie L,-1,1499.00,0.00,INR,Delivered,WEB,India,,,,L2,2
+ORD_1314,CUST-007,2026-06-13T21:47:00-04:00,BTL-STL,Steel Bottle,2,650.00,130.00,INR,Return,web,in,user7@example.com,+91 9839855629,,L1,1
+ORD_1089,CUST-007,2026-06-04T18:32:00Z,tshirt_m,Cotton Tee M,1,799.00,159.80,INR,Delivered,WEB,US,,,dozen,L1,1
+ORD-1322,CUST-009,2026-06-12T04:37:00Z,BAG-01,Canvas Tote,2,$ 18.00,1.80,USD,Delivered,Website,USA,,,,L2,1
+ORD1073,CUST-011,2026-05-08T06:54:00Z,TSHIRT-M,Cotton Tee M,5,₹799.00,10%,INR,Delivered,Mobile App,United States,user11@example.com,+91 9872015859,,L1,1
+ORD-1091,CUST-011,2026-05-05T17:42:00Z,TSHIRT-M,Cotton Tee  M,2,₹799.00,0.00,INR,Delivered,app,United States,,,,L1,1
+ORD-1003,,2026-05-07T08:30:00Z,MUG-BLK,Blk Ceramic Mug,5,450.00,22.50,INR,Return,WEB,US,user9@example.com,+91 9845264581,,L2,1
+ORD-1316,CUST-008,2026-05-30T00:33:00Z,HOODIE-L,Hoodie L,2,1499.00,20%,INR,Delivered,Website,in,user8@example.com,+91 9834167825,,L2,1
+ORD-1212,CUST-008,2026-05-20T18:07:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,90.00,INR,Pending,store,India,user8@example.com,,,L1,1
+ORD-1034,CUST09,2026-05-27T03:04:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,,Rs,TEST,WEB,United States,user9@example.com,+91 9885291541,,L3,1
+ORD-1334,CUST-007,04-05-2026 11:35,BTL-STL,Steel Bottle,5,650.00,10%,INR,Return,store,IN,user7@example.com,+91 9891786040,dozen,L1,1
+ORD-1449,CUST-007,2026-06-12T05:46:00Z,BAG-01,Canvas Tote,5,18,20%,USD,canceled,WEB,USA,user7@example.com,+91 9880944243,,L1,1
+ORD-1479,CUST-009,2026-06-09T03:10:00Z,TSHIRT-M,Cotton Tee M,1,₹ 799.00,15%,INR,Delivered,WEB,in,user9@example.com,+91 9828070303,,L1,1
+ORD_1075,CUST-007,2026-05-13T12:12:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,TEST,store,US,user7@example.com,+91 9871380637,,L2,1
+ORD-1125,CUST-010,2026-05-30T15:41:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,inr,Shipped,WEB,in,user10@example.com,+91 9881954780,dozen,L3,1
+ORD-1116,CUST-007,2026-05-26T04:35:00Z,BTL-STL,Steel Bottle,4,₹ 650.00,97.50,INR,Delivered,web,IN,,,,L1,1
+ORD-1461,CUST-007,2026-05-03T04:20:00Z,NOTE-A5,Spiral Notebook A5,5000,120.00,0.00,INR,Shipped,WEB,IN,,,,L1,1
+ORD_1219,CUST-010,26-05-2026 07:04,tshirt_m,Cotton Tee M,5,799.00,159.80,INR,canceled,Mobile App,US,,,dozen,L2,1
+ORD-1066,CUST-012,2026-05-07T20:30:00-04:00,mug_blk,Black Ceramic Mug,2,450.00,,INR,Delivered,app,IN,,,,L1,1
+ORD1288,CUST-008,2026-02-30T10:00:00Z,MUG-BLK,Black Ceramic Mug,1,₹ 450.00,,INR,Delivered,store,in,user8@example.com,+91 9866786713,,L3,1
+ORD-1323,,2026-05-27T17:30:00Z,XYZ-999,Canvas Tote,5,18.00,15%,USD,Shipped,app,USA,,,,L3,1
+ORD-1098,CUST-007,2026-05-24T10:48:00Z,TSHIRT-M,Cotton Tee  M,1,799.00,20%,,Delivered,app,United States,,,,L3,1
+ORD-1018,CUST-007,2026-06-14T04:11:00-04:00,btl_stl,Steel Bottle,2,₹ 650.00,10%,INR,Delivered,Mobile App,IN,user7@example.com,+91 9826948946,,L1,2
+ORD_1301,CUST-011,2026-02-30T10:00:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,canceled,app,in,user11@example.com,+91 9873583349,,L2,1
+ord-1052,CUST-012,2026-05-04T14:19:00Z,btl_stl,Steel Bottle,2,650.00,20%,inr,weird,Mobile App,India,user12@example.com,+91 9844419327,,L1,1
+ORD-1437,CUST-008,2026-05-19T19:32:00Z,HOODIE-L,Hoodie L,3,₹ 1499.00,,INR,Delivered,Website,US,user8@example.com,+91 9848043501,,L1,1
+ORD-1026,CUST-010,2026-05-29T04:53:00Z,HOODIE-L,Hoodie L,5,1499.00,74.95,INR,Shipped,WEB,India,,,,L1,1
+ORD-1345,CUST-012,09-05-2026 07:32,tshirt_m,Cotton Tee M,-2,799.00,0.00,Rs,Pending,Website,India,,,,L2,1
+ORD-1198,CUST-012 ,11-06-2026 18:06,BAG-01,Canvas Tote,5,18.00,0.90,USD,Delivered,app,USA,,,,L1,1
+ORD-1310,CUST-96,2026-06-07T16:12:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,15%,INR,delivered,WEB,India,,,,L1,1
+ORD-1011,CUST-009,2026-05-09T03:02:00Z,BAG-01,Canvas Tote,2,18.00,15%,USD,Delivered,web,USA,user9@example.com,,dozen,L2,1
+ord-1201,CUST-008 ,2026-05-12T21:56:00Z,HOODIE-L,Hoodie L,3,₹ 1499.00,0.00,,Delivered,web,US,,,,L1,1
+ORD-1242,CUST12,2026-05-19T13:35:00-04:00,BAG-01,Canvas Tote,1,18.00,0.00,USD,RETURN,web,IN,,,,L2,1
+ORD-1245,CUST-007,2026-05-16T20:28:00Z,note_a5,Spiral Notebook A5,2,Rs. 120,0.00,Rs,Shipped,store,United States,user7@example.com,,,L1,1
+ORD-1024,CUST-007,2026-05-13T20:56:00Z,tshirt_m,Cotton Tee M,2,799.00,5%,INR,TEST,WEB,United States,,,,L1,1
+ ORD-1229 ,CUST-009,2026-06-05T15:23:00Z,HOODIE-L,Hoodie L,5,1499.00,0.00,INR,Shipped,WEB,United States,,,,L1,1
+ORD-1470,CUST-010,2026-06-03T02:59:00Z,HOODIE-L,Hoodie L,5000,1499.00,74.95,INR,weird,web,India,,,,L1,1
+ORD-1312,CUST-010,2026-05-09T01:01:00Z,mug_blk,Black Ceramic Mug,3,450.00,67.50,INR,weird,app,US,user10@example.com,+91 9823005510,,L1,1
+ORD-1144,CUST-007,2026-05-28T02:09:00Z,MUG-BLK,Black Ceramic Mug,1,Rs. 450,5%,INR,Delivered,store,USA,,,,L1,1
+ORD-1387,CUST-007,,MUG-BLK,Black Ceramic Mug,5,₹ 450.00,15%,INR,test,Website,IN,user7@example.com,+91 9830670352,dozen,L1,1
+ORD-1333,cust-7,2026-05-25T22:19:00+05:30,NOTE-A5,Spiral Notebook A5,1,120.00,6.00,INR,weird,Mobile App,in,user7@example.com,+91 9865976877,,L1,1
+ORD-1464,,,hoodie_l,Hoodie L,5,1499.00,299.80,INR,Shipped,store,US,user10@example.com,,,L3,1
+ORD-1465,CUST-011,2026-05-07T12:52:00Z,BAG-01,Canvas Tote,5,18.00,3.60,USD,Delivered,Website,United States,user11@example.com,,,L1,1
+ORD-1008,CUST-007,2026-05-05T00:48:00-04:00,TSHIRT-M,Cotton Tee  M,5,799.00,0.00,INR,DELIVERED,web,IN,,,,L1,1
+ORD1352,CUST-008,2026-06-05T03:36:00Z,HOODIE-L,Hoodie L,-2,1499.00,,INR,Delivered,Mobile App,IN,user8@example.com,+91 9869007608,,L2,1
+ord-1440,CUST10,2026-05-22T11:23:00Z,BAG-01,Canvas Tote,2,18.00,15%,USD,Delivered,app,IN,,,,L1,1
+ORD_1281,CUST-010,2026-05-18T01:52:00Z,BAG-01,Canvas Tote,1,18.00,3.60,USD,Pending,Mobile App,India,,,,L1,1
+ORD-1038,CUST-009,2026-05-17T23:15:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,5%,INR,Shipped,Mobile App,in,,,,L3,1
+ORD_1028,CUST-009,2026-05-15T20:51:00Z,BTL-STL,Steel Bottle,2,₹ 650.00,0.00,INR,Delivered,Website,India,,,,L2,1
+ORD-1148,CUST-010,2026-05-26T12:25:00Z,tshirt_m,Cotton Tee M,1,799.00,119.85,inr,Delivered,web,India,,,,L3,1
+ORD-1155,CUST-011,2026-05-17T02:30:00Z,XYZ-999,Spiral Notebook A5,0,120.00,20%,INR,TEST,WEB,US,,,,L2,1
+ORD-1457,CUST-008,2026-06-14T18:42:00Z,hoodie_l,Hoodie L,5,1499,224.85,INR,Delivered,Website,in,user8@example.com,+91 9815414590,,L3,1
+ORD_1264,CUST-012,2026-05-13T13:24:00Z,MUG-BLK,Blk Ceramic Mug,1,450,,INR,Delivered,store,United States,user12@example.com,+91 9824276138,,L1,1
+ORD1006,CUST-007,2026-06-12T03:50:00Z,TSHIRT-M,Cotton Tee  M,1,₹799.00,15%,INR,delivered,Website,US,,,,L2,1
+ORD-1097,CUST-011,2026-05-15T20:13:00Z,NOTE-A5,Spiral Notebook A5,0,Rs. 120,0.00,INR,Cancelled,Mobile App,IN,,,,L3,1
+ORD-1320,CUST10,11-05-2026 04:44,mug_blk,black ceramic mug,5,450.00,0.00,INR,Shipped,app,US,user10@example.com,+91 9841154021,,L1,1
+ORD-1466,CUST-011,2026-05-07 13:02 +05:30,BTL-STL,Steel Bottle,3,Rs. 650,0.00,INR,TEST,web,USA,user11@example.com,+91 9871300688,,L3,1
+ORD-1119,CUST-011,2026-05-09T22:33:00Z,BTL-STL,Steel Bottle,5000,650.00,15%,,weird,store,IN,user11@example.com,,,L1,1
+ORD-1287,CUST-010,2026-05-29T23:40:00Z,HOODIE-L,Hoodie L,1,1499,224.85,INR,Delivered,WEB,US,user10@example.com,+91 9880811787,,L2,1
+ORD-1367,CUST-007,2026-06-14T04:28:00Z,XYZ-999,Black Ceramic Mug,3,450.00,20%,INR,canceled,app,USA,,,,L1,1
+ORD-1220,CUST-012,2026-05-02T01:15:00Z,BAG-01,Canvas Tote,5,18.00,10%,USD,Return,store,USA,,,,L1,1
+ORD-1227,CUST-008,2026-05-15T21:54:00Z,tshirt_m,Cotton Tee M,5,799.00,,INR,Delivered,WEB,USA,user8@example.com,+91 9847590802,,L1,1
+ORD_1286,CUST-011,2026-06-14T23:06:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,0.00,,Shipped,web,USA,user11@example.com,+91 9827590313,,L3,1
+ord-1301,cust-011,23-05-2026 13:57,BTL-STL,Steel Bottle,1,650,10%,INR,Cancelled,app,in,user11@example.com,+91 9873583349,,L1,1
+ORD1094,CUST-009,2026-05-01T04:10:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,pending,WEB,US,user9@example.com,+91 9898854850,dozen,L1,1
+ORD-1371,CUST-010,2026-06-12T02:17:00-04:00,MUG-BLK,Black Ceramic Mug,0,450.00,0.00,INR,Shipped,Mobile App,IN,,,,L1,1
+ORD-1252,CUST-009,2026-05-27T00:08:00Z,HOODIE-L,Hoodie L,3,1499.00,15%,inr,canceled,Mobile App,United States,user9@example.com,+91 9882143514,,L1,1
+ORD-1233,CUST-012,2026-06-13T00:56:00Z,tshirt_m,Cotton Tee  M,-1,799.00,159.80,INR,Delivered,app,United States,user12@example.com,,,L2,2
+ORD-1085,CUST-012,2026-05-04T20:44:00Z,MUG-BLK,Black Ceramic Mug,2,₹ 450.00,,INR,SHIPPED,web,USA,user12@example.com,+91 9895525640,,L1,1
+ORD-1134,CUST-011,2026-06-12T13:06:00Z,note_a5,Spiral Notebook A5,5,120.00,15%,INR,DELIVERED,WEB,USA,user11@example.com,+91 9882381952,,L1,1
+ORD-1313,CUST-011,2026-05-15T12:52:00+05:30,TSHIRT-M,Cotton Tee  M,1,799.00,39.95,INR,Delivered,app,US,user11@example.com,+91 9825911656,,L1,1
+ord-1444,CUST-009,2026-06-10T08:10:00Z,btl_stl,Steel Bottle,3,650.00,0.00,inr,Delivered,WEB,United States,user9@example.com,,,L3,2
+ORD-1035,CUST-011,2026-06-07T22:14:00Z,hoodie_l,Hoodie L,1,"Rs. 1,499",0.00,INR,Delivered,web,US,,,,L1,1
+ORD-1055,CUST-009,2026-06-05T23:43:00Z,note_a5,Spiral Notebook A5,1,120.00,0.00,INR,DELIVERED,WEB,United States,user9@example.com,+91 9835925669,,L2,1
+ORD-1279,CUST-010,2026-06-13T06:15:00Z,mug_blk,Black Ceramic Mug,2,450.00,15%,inr,Shipped,Mobile App,United States,user10@example.com,,,L1,1
+ORD-1275,CUST-009,2026-05-18T00:09:00Z,HOODIE-L,Hoodie L,-2,₹ 1499.00,10%,INR,DELIVERED,store,IN,user9@example.com,+91 9870410362,,L2,1
+ORD-1049,CUST-012,2026-05-28T19:25:00Z,BTL-STL,Steel Bottle,3,650.00,15%,Rs,Shipped,app,in,user12@example.com,,,L2,1
+ORD-1056,CUST-010,2026-06-04T00:43:00Z,HOODIE-L,Hoodie L,3,1499.00,0.00,inr,Delivered,Mobile App,United States,,,,L1,1
+ORD-1220,CUST-012,2026-05-02T01:15:00Z,note_a5,Spiral Notebook A5,5,120,12.00,INR,return,store,USA,,,pack,L3,1
+ORD-1044,CUST-010,2026-05-13T17:23:00+05:30,BAG-01,Canvas Tote,3,18.00,20%,USD,Delivered,web,United States,,,,L1,1
+ORD-1277,CUST-011,2026-05-10T00:52:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,Delivered,app,United States,user11@example.com,+91 9892746890,,L1,1
+ORD-1042,,2026-05-28T23:32:00Z,btl_stl,Steel Bottle,5,650.00,0.00,inr,PENDING,store,IN,user7@example.com,+91 9835140847,,L2,1
+ORD-1185,CUST-007,2026-05-13T22:54:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,5%,INR,Delivered,web,India,user7@example.com,+91 9869804203,,L1,2
+ORD-1493,CUST-008,2026-06-02 00:51 +05:30,BAG-01,Canvas Tote,3,18.00,0.00,USD,Shipped,store,USA,,,,L3,1
+ORD-1463,cust-010,2026-05-06T12:27:00Z,btl_stl,Steel Bottle,1,650.00,0.00,inr,Cancelled,app,in,user10@example.com,+91 9899640817,,L1,1
+ORD-1467,CUST-007,2026-06-02T17:47:00Z,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,Shipped,Mobile App,USA,,,,L2,1
+ ORD-1457 ,CUST-008,2026/06/14 14:42 -04:00,MUG-BLK,black ceramic mug,3,450.00,0.00,INR,Delivered,Website,in,user8@example.com,+91 9815414590,,L1,1
+ORD-1294,CUST-011,2026-05-08T01:20:00Z,HOODIE-L,Hoodie L,3,1499.00,5%,INR,canceled,app,India,,,,L1,1
+ORD1479,CUST09,2026-06-09T03:10:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,0.00,INR,delivered,WEB,in,user9@example.com,+91 9828070303,,L2,1
+ORD-1045,CUST-011,2026-05-13T23:55:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,0.00,inr,Shipped,Website,IN,,,,L1,1
+ORD-1006,CUST-007,2026-06-12T03:50:00Z,HOODIE-L,Hoodie L,1,1499.00,,INR,Delivered,Website,US,,,,L1,1
+ORD-1242,CUST-012,2026-05-19T13:35:00-04:00,MUG-BLK,Black Ceramic Mug,-2,450.00,0.00,inr,Return,web,IN,,,,L3,1
+ORD-1019,CUST-008,2026-05-06T14:52:00+05:30,BTL-STL,Steel Bottle,2,650.00,0.00,INR,TEST,Website,USA,user8@example.com,+91 9890010790,,L2,1
+ORD-1019,CUST-008,2026-05-06T09:22:00Z,hoodie_l,Hoodie L,2,₹ 1499.00,224.85,INR,canceled,Website,USA,user8@example.com,+91 9890010790,,L1,1
+ORD1180,CUST10,2026-05-23T19:43:00Z,btl_stl,Steel Bottle,2,650.00,130.00,INR,Pending,WEB,in,user10@example.com,+91 9881391010,,L1,1
+ ORD-1087 ,CUST-009,2026-05-13T17:40:00Z,HOODIE-L,Hoodie L,2,"Rs. 1,499",10%,INR,TEST,WEB,India,user9@example.com,+91 9892423989,,L1,1
+ORD-1441,CUST-94,2026-05-10T22:37:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,0.00,INR,TEST,Mobile App,IN,user8@example.com,+91 9811570055,,L1,1
+ORD-1295,CUST-009,2026-06-06T14:35:00Z,HOODIE-L,Hoodie L,1,"₹1,499.00",0.00,INR,Delivered,Website,US,user9@example.com,+91 9836777331,,L3,1
+ORD-1373,CUST-007,2026-06-02T11:54:00Z,TSHIRT-M,cotton tee m,5,₹ 799.00,0.00,INR,TEST,web,IN,user7@example.com,+91 9895955870,dozen,L1,1
+ORD-1047,CUST-007,2026-05-04T16:43:00Z,tshirt_m,Cotton Tee M,2,799.00,20%,INR,Delivered,store,India,user7@example.com,+91 9887412924,,L3,1
+ord-1095,CUST-010,2026-05-12T23:42:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,15%,INR,Delivered,store,United States,user10@example.com,+91 9818273096,,L1,2
+ORD-1320,CUST10,2026-05-11T04:44:00Z,mug_blk,black ceramic mug,5,450.00,0.00,INR,Shipped,app,US,user10@example.com,+91 9841154021,,L1,1
+ORD-1485,CUST-011,2026-05-20T23:31:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,,,Shipped,Mobile App,USA,,,pack,L1,1
+ORD-1323,CUST-011,2026-05-27T17:30:00Z,HOODIE-L,Hoodie L,5,1499.00,74.95,INR,Shipped,app,USA,,,,L2,1
+ord-1095,CUST-010,2026-05-12T23:42:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,15%,INR,Delivered,store,United States,user10@example.com,+91 9818273096,,L1,1
+ORD-1343,CUST-010 ,2026-06-01T20:06:00Z,mug_blk,Black Ceramic Mug,1,450,15%,INR,Delivered,Website,USA,user10@example.com,+91 9814797564,,L1,1
+ORD-1330,CUST-010,2026-05-26T00:33:00Z,HOODIE-L,Hoodie L,-2,1499.00,0.00,INR,Return,Website,US,,,,L1,1
+ORD-1399,,2026-05-18T20:51:00Z,BAG-01,Canvas Tote,1,18.00,5%,USD,Shipped,WEB,United States,user9@example.com,+91 9813867816,,L2,1
+ORD-1389,CUST-009,2026-06-01T18:29:00Z,note_a5,Spiral Notebook A5,2,120.00,24.00,INR,Pending,web,USA,,,,L1,1
+ORD-1209,CUST-007,2026-05-23T17:56:00+05:30,HOODIE-L,Hoodie L,2,₹ 1499.00,299.80,Rs,canceled,app,US,,,,L2,1
+ORD-1141,CUST-009,2026-05-11T01:05:00Z,mug_blk,Black Ceramic Mug,2,450.00,0.00,INR,Delivered,web,India,,,,L1,1
+ORD-1248,CUST-009,2026-06-08T02:27:00Z,BTL-STL,Steel Bottle,2,650.00,20%,INR,TEST,app,India,user9@example.com,+91 9829787096,,L1,1
+ORD-1185,CUST-007,2026-05-13T22:54:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,5%,INR,Cancelled,web,India,user7@example.com,+91 9869804203,,L1,1
+ORD-1373,CUST-007,2026-06-02T11:54:00Z,XYZ-999,Hoodie L,5,1499.00,20%,INR,canceled,web,IN,user7@example.com,+91 9895955870,,L2,1
+ORD-1007,CUST-011,2026-05-12T04:55:00Z,BTL-STL,Steel Bottle,1,650.00,0.00,INR,Shipped,store,USA,user11@example.com,+91 9821003626,,L2,1
+ORD-1002,cust-9,2026-06-01T18:34:00-04:00,BTL-STL,Steel Bottle,5,Rs. 650,10%,INR,Pending,web,USA,,,,L1,1
+ORD-1231,CUST-008,2026-05-06T00:57:00Z,BAG-01,Canvas Tote,2,18.00,20%,USD,Shipped,Website,India,user8@example.com,+91 9819229212,,L1,1
+ ORD-1140 ,CUST08,2026-05-25T01:55:00+05:30,BAG-01,Canvas Tote,2,18.00,0.00,USD,Cancelled,Website,USA,,,,L1,1
+ORD-1381,CUST-010,2026-05-27T04:07:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Delivered,Website,US,,,,L1,1
+ORD-1267,CUST-008,2026-05-21T17:00:00Z,MUG-BLK,black ceramic mug,3,450.00,,INR,Shipped,web,United States,,,,L2,1
+ ORD-1239 ,CUST-92,2026-06-06T11:23:00Z,btl_stl,Steel Bottle,-1,650.00,10%,INR,RETURN,Website,USA,,,,L1,1
+ORD-1213,CUST-010,2026-06-14T22:01:00Z,BAG-01,Canvas Tote,3,18.00,1.80,USD,Delivered,app,United States,user10@example.com,,,L3,1
+ORD-1118,CUST-011,2026-05-26T19:09:00Z,TSHIRT-M,Cotton Tee M,5,₹799.00,10%,INR,Delivered,web,in,user11@example.com,+91 9867486445,,L1,1
+ORD1096,CUST12,2026-05-02T13:55:00Z,MUG-BLK,Black Ceramic Mug,0,450.00,0.00,INR,canceled,store,USA,user12@example.com,,,L1,1
+ORD-1264,CUST-97,2026-05-13T13:24:00Z,NOTE-A5,Spiral Notebook A5,1,₹ 120.00,10%,INR,Delivered,store,United States,user12@example.com,+91 9824276138,,L3,1
+ORD-1328,CUST-008,2026-05-02T16:07:00Z,BAG-01,Canvas Tote,5000,18,0.00,USD,TEST,Mobile App,India,,,,L3,1
+ORD-1176,CUST-009,01-05-2026 15:50,HOODIE-L,Hoodie L,5000,1499.00,0.00,INR,Return,Website,India,,,,L1,1
+ ORD-1291 ,CUST-011,2026-06-05 11:29 +05:30,NOTE-A5,Spiral Notebook A5,3,120.00,,Rs,TEST,Mobile App,IN,,,,L1,1
+ORD-1004,cust-007,2026-06-03T07:26:00Z,tshirt_m,Cotton Tee M,-1,799.00,0.00,INR,Delivered,Website,United States,user7@example.com,+91 9881498611,,L2,1
+ORD-1134,CUST-011,2026-06-12T13:06:00Z,hoodie_l,Hoodie L,3,1499.00,10%,Rs,Delivered,WEB,USA,user11@example.com,+91 9882381952,,L2,1
+ORD-1010,CUST-008,,TSHIRT-M,Cotton Tee M,3,799.00,0.00,INR,Shipped,web,US,user8@example.com,,,L1,1
+ORD1194,CUST-010,2026-05-05T13:17:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,0.00,INR,DELIVERED,app,US,,,,L3,1
+ORD-1117,CUST-012,2026/06/06 05:26 -04:00,BAG-01,Canvas Tote,-1,18.00,3.60,USD,Shipped,store,USA,user12@example.com,+91 9883665549,,L1,1
+ORD_1327,CUST-012,2026-06-04T09:34:00Z,TSHIRT-M,Cotton Tee M,2,799.00,10%,INR,Delivered,web,US,,,dozen,L1,1
+ORD-1432,CUST-009,2026-05-02T18:31:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,,Delivered,app,United States,,,,L1,1
+ORD-1491,,2026-06-04 09:13 +05:30,NOTE-A5,Spiral Notebook A5,1,120.00,20%,INR,TEST,web,US,user9@example.com,+91 9826719412,,L1,1
+ORD-1407,cust-7,2026-05-05T14:54:00Z,BAG-01,Canvas Tote,5,18.00,3.60,USD,TEST,web,US,user7@example.com,+91 9891229370,,L1,1
+ORD-1187,CUST-011,2026-05-09T19:41:00Z,btl_stl,Steel Bottle,2,650.00,130.00,INR,Delivered,web,USA,,,,L1,1
+ORD-1233,CUST-012,2026-06-13T00:56:00Z,BAG-01,Canvas Tote,5,18.00,3.60,USD,Delivered,app,United States,user12@example.com,,,L1,1
+ord-1444,CUST-009,2026-06-10T08:10:00Z,btl_stl,Steel Bottle,3,650.00,0.00,inr,TEST,WEB,United States,user9@example.com,,,L3,1
+ORD1285,CUST-011,2026-05-10T15:45:00Z,btl_stl,Steel Bottle,5,650.00,10%,INR,Return,WEB,United States,user11@example.com,+91 9847319033,,L1,1
+ORD-1107,CUST-010,16-05-2026 02:36,BAG-01,Canvas Tote,-2,18.00,0.00,USD,Return,store,in,user10@example.com,+91 9873502927,,L2,1
+ORD-1127,CUST-007,2026-06-03T12:55:00Z,BTL-STL,Steel Bottle,2,650.00,65.00,INR,Delivered,WEB,in,,,,L2,1
+ORD-1044,CUST-010,2026-05-13T11:53:00Z,XYZ-999,Canvas Tote,2,18.00,15%,,Delivered,web,United States,,,,L2,1
+ ORD-1272 ,CUST-008,2026/05/19 01:20 -04:00,TSHIRT-M,cotton tee m,0,799,15%,,Delivered,Mobile App,India,,,,L2,1
+ ORD-1412 ,CUST-012,2026-05-28T22:47:00Z,TSHIRT-M,Cotton Tee M,2,₹799.00,,INR,Delivered,Mobile App,IN,,,,L1,1
+ORD-1339,CUST-012,2026-06-11T06:59:00Z,BTL-STL,Steel Bottle,5000,650,97.50,Rs,Shipped,Mobile App,India,user12@example.com,+91 9866116418,,L1,1
+ORD_1155,CUST-011,2026-05-16T22:30:00-04:00,NOTE-A5,Spiral Notebook A5,5,Rs. 120,0.00,INR,TEST,WEB,US,,,,L1,1
+ORD-1098,CUST-007,2026-05-24T10:48:00Z,MUG-BLK,Black Ceramic Mug,1,₹450.00,15%,INR,weird,app,United States,,,,L2,1
+ord-1404,CUST11,,bag_01,Canvas Tote,1,18,0.00,USD,weird,app,India,user11@example.com,+91 9819691415,,L1,1
+ORD-1233,CUST-90,2026/06/12 20:56 -04:00,BTL-STL,Steel Bottle,5,650.00,0.00,,delivered,app,United States,user12@example.com,,,L3,1
+ORD-1270,CUST-012,2026-06-11T18:38:00-04:00,btl_stl,Steel Bottle,1,Rs. 650,97.50,INR,Cancelled,WEB,US,user12@example.com,+91 9876719940,,L1,1
+ORD-1080,CUST-009,2026-06-02T21:05:00Z,tshirt_m,Cotton Tee M,1,799,0.00,INR,Shipped,WEB,United States,user9@example.com,,,L1,1
+ORD-1035,CUST-011,2026-06-07T22:14:00Z,hoodie_l,Hoodie L,1,"Rs. 1,499",0.00,INR,Delivered,web,US,,,,L1,2
+ORD-1242,CUST-012,2026-05-19T13:35:00-04:00,MUG-BLK,Black Ceramic Mug,-2,450.00,0.00,inr,Return,web,IN,,,,L3,1
+ORD-1363,CUST-008,2026-05-10T12:41:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,Pending,app,United States,user8@example.com,,,L1,1
+ORD-1315,CUST-91,2026-05-29T13:09:00Z,hoodie_l,Hoodie L,1,1499.00,0.00,,Delivered,store,India,user12@example.com,+91 9860493924,,L1,1
+ORD-1152,CUST-008,2026-05-20T05:26:00Z,note_a5,Spiral Notebook A5,5000,120.00,0.00,INR,Return,WEB,India,user8@example.com,,,L1,1
+ORD-1033,CUST-008,2026-05-26T07:42:00Z,hoodie_l,Hoodie L,2,"₹1,499.00",149.90,INR,Cancelled,app,United States,user8@example.com,,,L1,1
+ORD-1242,CUST-012,2026-05-19T17:35:00Z,bag_01,Canvas Tote,1,18.00,0.00,USD,Return,web,IN,,,,L1,1
+ORD-1309,CUST-007,2026-05-14T05:42:00Z,BTL-STL,Steel Bottle,5,650.00,65.00,INR,TEST,web,IN,,,,L2,1
+ORD-1101,CUST-012,2026-06-05T17:19:00Z,NOTE-A5,Spiral Notebook A5,-2,₹ 120.00,0.00,INR,Delivered,WEB,in,user12@example.com,,,L1,1
+ORD-1148,CUST-010,2026-05-26T12:25:00Z,BAG-01,Canvas Tote,1,18.00,20%,USD,Delivered,web,India,,,,L2,1
+ORD-1364,CUST-011,2026-05-09T02:19:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,10%,INR,Delivered,web,United States,user11@example.com,+91 9836658273,,L3,1
+ORD_1305,CUST-012,2026-06-07T09:12:00+05:30,note_a5,Spiral Notebook A5,2,120.00,0.00,Rs,Delivered,Website,United States,,,,L1,1
+ORD-1127,CUST-007,2026-06-03T18:25:00+05:30,btl_stl,Steel Bottle,2,650.00,5%,,Delivered,WEB,in,,,,L1,1
+ORD-1042,CUST-007,2026-05-28T23:32:00Z,BAG-01,Canvas Tote,1,$18.00,2.70,USD,Pending,store,IN,user7@example.com,+91 9835140847,,L1,1
+ORD-1424,cust-010,2026-06-05T16:02:00Z,NOTE-A5,Spiral Notebook A5,5,Rs. 120,6.00,INR,Delivered,Mobile App,India,,,,L1,1
+ORD1057,CUST-010,2026-05-18T01:00:00Z,mug_blk,black ceramic mug,5,450.00,15%,INR,Shipped,Mobile App,US,,,,L1,1
+ORD-1060,CUST11,2026-05-30 18:04 +05:30,NOTE-A5,Spiral Notebook A5,2,120.00,12.00,INR,Delivered,Mobile App,IN,user11@example.com,+91 9878829070,,L2,2
+ORD-1410,CUST-012,2026-05-26T11:52:00Z,btl_stl,Steel Bottle,1,650.00,5%,INR,TEST,WEB,United States,,,,L2,1
+ORD-1157,CUST-007,13-05-2026 08:32,btl_stl,Steel Bottle,2,650.00,0.00,INR,Delivered,Mobile App,in,user7@example.com,+91 9841895802,dozen,L1,1
+ORD_1127,CUST-007 ,2026-06-03T12:55:00Z,note_a5,Spiral Notebook A5,1,120.00,12.00,INR,Delivered,WEB,in,,,,L3,1
+ORD-1001,CUST-012,2026-05-06T01:36:00Z,MUG-BLK,Black Ceramic Mug,3,450.00,,INR,Delivered,store,IN,user12@example.com,+91 9839958838,,L1,1
+ORD-1495,CUST10,2026-06-09T20:42:00Z,mug_blk,black ceramic mug,1,450.00,22.50,INR,Delivered,Mobile App,in,user10@example.com,+91 9895031405,,L1,1
+ORD-1403,CUST-011,2026-05-31T05:57:00Z,HOODIE-L,Hoodie L,1,"Rs. 1,499",74.95,inr,Return,Website,United States,,,,L1,1
+ORD-1438,CUST-011,2026-05-24T00:43:00-04:00,BTL-STL,Steel Bottle,2,650.00,32.50,INR,Delivered,web,in,,,,L1,1
+ORD-1214,CUST-012,2026-05-10 21:45 +05:30,hoodie_l,Hoodie L,5000,1499,,INR,canceled,app,IN,user12@example.com,+91 9831050667,,L1,1
+ORD-1292,CUST-012,2026-05-31T21:25:00Z,BAG-01,Canvas Tote,2,18.00,5%,USD,Cancelled,Website,in,user12@example.com,,,L1,1
+ORD-1061,CUST-012,2026-05-03T04:59:00Z,XYZ-999,Black Ceramic Mug,0,450.00,15%,,Shipped,Website,United States,,,,L1,1
+ORD-1152,CUST-008,2026-05-20T05:26:00Z,note_a5,Spiral Notebook A5,5000,120.00,0.00,INR,Delivered,WEB,India,user8@example.com,,,L1,2
+ORD1385,CUST-009,2026-05-09T17:44:00Z,MUG-BLK,Black Ceramic Mug,5,₹450.00,5%,INR,canceled,Mobile App,in,user9@example.com,,dozen,L1,1
+ORD-1056,CUST-010,2026-06-03T20:43:00-04:00,NOTE-A5,Spiral Notebook A5,1,₹ 120.00,0.00,INR,Delivered,Mobile App,United States,,,,L3,1
+ORD_1260,CUST-011,2026/05/18 17:56 -04:00,XYZ-999,Hoodie L,1,₹ 1499.00,15%,INR,Cancelled,web,US,user11@example.com,+91 9896298460,,L1,1
+ORD-1124,CUST-012,2026-05-24T05:56:00Z,mug_blk,Black Ceramic Mug,1,450.00,,INR,DELIVERED,Mobile App,USA,user12@example.com,,,L1,1
+ORD1340,CUST-008,2026-05-21T16:00:00-04:00,BAG-01,Canvas Tote,1,18.00,,USD,delivered,Mobile App,United States,user8@example.com,,,L1,1
+ORD1360,CUST-009,,MUG-BLK,Black Ceramic Mug,5,450.00,0.00,INR,Delivered,app,IN,,,,L1,1
+ORD-1027,CUST-009,2026-05-10T01:35:00Z,BTL-STL,Steel Bottle,2,650.00,20%,INR,Shipped,web,India,,,,L1,1
+ORD-1282,CUST-008,2026-05-10T20:15:00Z,TSHIRT-M,Cotton Tee M,0,799.00,,INR,Delivered,Website,IN,,,,L1,1
+ORD-1150,CUST-008,2026-05-11T17:43:00+05:30,TSHIRT-M,Cotton Tee M,3,799.00,79.90,INR,DELIVERED,web,United States,,,,L1,1
+ORD-1173,CUST-011,2026-06-10T08:44:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,10%,INR,weird,Website,India,user11@example.com,+91 9873889312,,L1,1
+ORD-1329,CUST-007,2026-06-14T04:20:00Z,HOODIE-L,Hoodie L,2,1499,,INR,delivered,WEB,IN,,,,L1,1
+ORD-1075,CUST-007,2026-02-30T10:00:00Z,btl_stl,Steel Bottle,1,650.00,32.50,INR,test,store,US,user7@example.com,+91 9871380637,,L1,1
+ORD-1348,CUST-010,2026-05-15T19:44:00Z,bag_01,Canvas Tote,3,$18.00,5%,USD,Delivered,WEB,USA,user10@example.com,,,L2,1
+ORD-1307,CUST-012,2026/06/13 02:42 -04:00,HOODIE-L,Hoodie L,1,"Rs. 1,499",5%,INR,Cancelled,app,in,user12@example.com,,,L1,1
+ORD-1459,CUST-012,2026-05-21T02:46:00Z,TSHIRT-M,Cotton Tee M,1,₹ 799.00,10%,INR,Return,Website,USA,user12@example.com,+91 9885384682,,L3,1
+ORD-1353,CUST07,2026-05-30T14:26:00Z,note_a5,Spiral Notebook A5,5,120.00,,INR,Shipped,Mobile App,IN,,,,L1,1
+ORD-1203,CUST-009,2026-05-03T00:14:00Z,HOODIE-L,Hoodie L,2,"Rs. 1,499",74.95,inr,SHIPPED,app,United States,,,,L1,1
+ORD_1146,CUST-011,2026-06-12T04:14:00Z,BAG-01,Canvas Tote,2,18.00,5%,USD,Delivered,web,in,user11@example.com,,,L1,1
+ORD-1341,CUST-012,,NOTE-A5,Spiral Notebook A5,5000,120.00,24.00,INR,Shipped,web,US,user12@example.com,+91 9873110413,,L1,1
+ORD-1167,CUST-012,2026-05-27T19:02:00Z,BAG-01,Canvas Tote,-1,$ 18.00,0.00,USD,Cancelled,app,United States,,,,L1,1
+ORD-1228,CUST-008,2026-05-27T13:50:00Z,BAG-01,Canvas Tote,1,18.00,5%,USD,Shipped,Mobile App,US,user8@example.com,+91 9855147351,,L2,1
+ORD-1168,CUST-007,2026-05-04T22:21:00Z,hoodie_l,Hoodie L,2,"Rs. 1,499",74.95,INR,Delivered,Mobile App,United States,,,,L2,1
+ORD-1194,CUST10,2026-05-05T13:17:00Z,NOTE-A5,Spiral Notebook A5,2,₹120.00,6.00,INR,Delivered,app,US,,,dozen,L1,1
+ORD-1021,CUST-007,2026-05-05 09:15 +05:30,BTL-STL,Steel Bottle,2,650.00,0.00,INR,TEST,web,United States,user7@example.com,+91 9887201917,,L1,1
+ORD-1190,CUST-010,2026-05-20T22:28:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,24.00,INR,Delivered,Mobile App,US,user10@example.com,+91 9826001148,,L2,1
+ORD-1204,,2026-06-02T03:05:00Z,HOODIE-L,Hoodie L,2,1499.00,,INR,Delivered,Mobile App,in,user8@example.com,+91 9876425800,,L1,1
+ORD-1262,,2026-05-12T08:29:00Z,tshirt_m,Cotton Tee  M,2,799.00,0.00,INR,Delivered,Website,United States,user8@example.com,+91 9845370495,,L1,2
+ORD_1316,CUST-008,2026-05-30T00:33:00Z,HOODIE-L,Hoodie L,5,1499.00,74.95,INR,Delivered,Website,in,user8@example.com,+91 9834167825,,L1,1
+ ORD-1143 ,cust-11,2026-06-12T03:35:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,15%,INR,Delivered,Mobile App,US,,,dozen,L1,1
+ORD-1104,CUST-008,2026-05-17T06:56:00Z,hoodie_l,Hoodie L,1,1499.00,10%,,Delivered,Website,IN,,,,L1,1
+ORD-1500,CUST09,2026-05-15T23:18:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,15%,INR,Delivered,web,US,,,,L3,1
+ORD-1417,CUST-009 ,2026-05-18T00:05:00Z,HOODIE-L,Hoodie L,3,₹ 1499.00,20%,INR,DELIVERED,Mobile App,United States,user9@example.com,+91 9812153059,,L1,1
+ORD-1433,cust-008,2026-06-12T09:20:00Z,BAG-01,Canvas Tote,3,18,0.00,USD,Delivered,web,IN,user8@example.com,+91 9823438230,,L1,1
+ORD-1143,CUST-011,2026-06-12T03:35:00Z,hoodie_l,Hoodie L,2,1499.00,,INR,Delivered,Mobile App,US,,,dozen,L2,1
+ord-1240,CUST-010,2026-05-02 03:08 +05:30,HOODIE-L,Hoodie L,5,1499.00,10%,INR,Shipped,web,in,,,,L2,1
+ORD-1400,CUST-010,2026-06-03T18:17:00Z,BAG-01,Canvas Tote,1,18.00,5%,USD,Delivered,app,US,,,,L1,1
+ORD-1166,CUST-009,2026-06-06T18:22:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,0.00,,Delivered,Mobile App,India,user9@example.com,,,L1,1
+ORD-1188,cust-7,2026-05-10T21:58:00Z,BTL-STL,Steel Bottle,5,650.00,0.00,INR,Cancelled,WEB,United States,user7@example.com,+91 9835288872,,L1,1
+ord-1482,CUST-007,2026-06-09T12:33:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,,Rs,DELIVERED,store,IN,,,,L1,1
+ORD-1077,CUST-007,,MUG-BLK,Black Ceramic Mug,3,450.00,45.00,INR,canceled,store,United States,,,,L1,1
+ORD-1060,CUST11,2026-05-30 18:04 +05:30,NOTE-A5,Spiral Notebook A5,2,120.00,12.00,INR,Shipped,Mobile App,IN,user11@example.com,+91 9878829070,,L2,1
+ORD_1395,CUST-010 ,2026-06-14T20:11:00Z,BTL-STL,Steel Bottle,1,Rs. 650,0.00,Rs,Delivered,store,India,user10@example.com,,,L1,1
+ ORD-1023 ,CUST-008,2026-05-23T16:21:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,INR,Delivered,WEB,United States,,,,L1,1
+ORD1193,CUST-007,2026-05-31T02:15:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,TEST,web,United States,user7@example.com,+91 9851889289,,L1,1
+ORD-1466,CUST-011,2026-05-07T07:32:00Z,BTL-STL,Steel Bottle,5,650.00,65.00,INR,TEST,web,USA,user11@example.com,+91 9871300688,,L1,1
+ORD-1074,CUST-008,2026-05-21T19:46:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,12.00,,Cancelled,store,in,user8@example.com,+91 9875697427,,L2,1
+ORD-1258,CUST-010,2026-06-06T18:55:00Z,HOODIE-L,Hoodie L,2,1499.00,299.80,INR,Shipped,store,USA,,,,L1,1
+ORD-1215,CUST-91,2026-05-15T06:50:00+05:30,HOODIE-L,Hoodie L,-2,1499.00,10%,,delivered,Website,USA,user12@example.com,+91 9885075065,,L2,1
+ORD-1411,CUST-90,2026-05-25T10:59:00Z,tshirt_m,Cotton Tee M,5000,799.00,119.85,INR,DELIVERED,web,US,user10@example.com,+91 9819670420,,L3,1
+ORD-1174,,2026-05-17T11:17:00Z,HOODIE-L,Hoodie L,-1,1499.00,0.00,INR,Cancelled,WEB,India,,,,L2,1
+ORD-1008,CUST-007,2026-05-05T00:48:00-04:00,TSHIRT-M,Cotton Tee  M,5,799.00,0.00,INR,DELIVERED,web,IN,,,,L1,1
+ORD_1411,,2026-05-25T10:59:00Z,MUG-BLK,Black Ceramic Mug,1,450,,INR,Delivered,web,US,user10@example.com,+91 9819670420,dozen,L2,1
+ ORD-1420 ,CUST-009,2026-05-29T17:47:00Z,BTL-STL,Steel Bottle,1,650.00,0.00,INR,weird,Website,United States,,,,L2,1
+ORD-1405,CUST-011,2026-05-29T05:27:00Z,BTL-STL,Steel Bottle,1,650.00,97.50,INR,weird,Mobile App,IN,,,,L2,1
+ORD-1219,CUST-010,2026-05-26T07:04:00Z,bag_01,Canvas Tote,3,$ 18.00,0.00,USD,Return,Mobile App,US,,,,L3,1
+ORD-1288,CUST-008,2026-06-05T11:59:00Z,note_a5,Spiral Notebook A5,-1,120.00,,Rs,Delivered,store,in,user8@example.com,+91 9866786713,,L1,1
+ORD-1306,CUST-011,2026-05-20T18:07:00Z,BTL-STL,Steel Bottle,2,650.00,20%,INR,return,store,IN,,,,L1,1
+ORD-1016,CUST08,2026-06-07T19:22:00Z,HOODIE-L,Hoodie L,3,1499.00,20%,INR,Delivered,Mobile App,India,,,,L2,1
+ORD-1093,CUST-007,2026-05-16T09:07:00Z,BTL-STL,Steel Bottle,-2,Rs. 650,0.00,INR,Return,web,US,user7@example.com,+91 9874791834,,L1,1
+ORD-1133,CUST-012,2026-06-13T12:51:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Shipped,store,USA,user12@example.com,+91 9855283492,dozen,L1,1
+ORD-1415,CUST-008,2026-05-14 13:42 +05:30,BTL-STL,Steel Bottle,-1,650.00,97.50,INR,delivered,Mobile App,in,user8@example.com,+91 9834967191,,L1,1
+ORD-1496,CUST-010,2026-05-07T02:43:00Z,MUG-BLK,Blk Ceramic Mug,-1,Rs. 450,22.50,INR,TEST,web,US,,,,L1,1
+ORD-1411,CUST-90,2026-05-25T10:59:00Z,tshirt_m,Cotton Tee M,5000,799.00,119.85,INR,Delivered,web,US,user10@example.com,+91 9819670420,,L3,2
+ord-1429,CUST07,2026-05-17T05:07:00Z,btl_stl,Steel Bottle,2,650.00,97.50,INR,Delivered,Website,US,,,,L1,1
+ORD-1080,CUST-009,2026-06-02T21:05:00Z,NOTE-A5,Spiral Notebook A5,5000,120.00,15%,INR,Shipped,WEB,United States,user9@example.com,,,L2,1
+ ORD-1155 ,CUST-011,2026-05-17T02:30:00Z,TSHIRT-M,Cotton Tee M,2,799.00,20%,INR,TEST,WEB,US,,,,L3,1
+ORD-1298,CUST-012,2026/06/01 16:10 -04:00,HOODIE-L,Hoodie L,2,"Rs. 1,499",10%,,Delivered,store,IN,user12@example.com,+91 9848927998,,L1,1
+ord-1007,CUST-011,2026-05-12T04:55:00Z,BTL-STL,Steel Bottle,2,650,0.00,INR,Shipped,store,USA,user11@example.com,+91 9821003626,,L3,1
+ORD-1062,CUST-011 ,2026-06-07T00:11:00Z,btl_stl,Steel Bottle,5000,650.00,15%,INR,Shipped,Website,IN,,,,L1,1
+ORD_1175,,2026-05-19T18:39:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,Rs,Shipped,Website,IN,,,,L1,1
+ORD-1139,CUST-010,2026-05-13T12:43:00Z,BTL-STL,Steel Bottle,1,650.00,32.50,INR,weird,WEB,India,,,,L1,1
+ORD-1323,CUST11,,btl_stl,Steel Bottle,2,₹650.00,130.00,INR,weird,app,USA,,,,L1,1
+ORD-1481,CUST-010,2026-05-26T22:00:00+05:30,BAG-01,Canvas Tote,3,18.00,2.70,USD,Pending,Mobile App,in,,,,L1,1
+ORD-1102,cust-009,,NOTE-A5,Spiral Notebook A5,1,120.00,10%,Rs,Shipped,web,United States,user9@example.com,+91 9825808361,,L2,1
+ORD1056,CUST-010,2026-06-04T00:43:00Z,BAG-01,Canvas Tote,3,18.00,20%,USD,Delivered,Mobile App,United States,,,,L2,1
+ORD-1366,CUST-010,2026/05/13 01:57 -04:00,MUG-BLK,Black Ceramic Mug,1,450.00,67.50,INR,Shipped,Mobile App,USA,user10@example.com,+91 9893054727,,L1,1
+ord-1097,CUST-011,2026-05-15T20:13:00Z,BTL-STL,Steel Bottle,3,650.00,0.00,INR,Cancelled,Mobile App,IN,,,,L1,1
+ORD-1164,cust-008,2026-06-02T09:50:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,INR,TEST,app,IN,user8@example.com,+91 9883305194,,L1,1
+ ORD-1375 ,CUST07,2026-02-30T10:00:00Z,tshirt_m,Cotton Tee M,1,799.00,0.00,INR,Delivered,web,USA,user7@example.com,,,L1,1
+ORD-1350,CUST-010,2026-05-19T00:52:00Z,XYZ-999,Steel Bottle,5,₹ 650.00,65.00,INR,Delivered,WEB,IN,,,,L3,1
+ORD-1357,CUST-011,2026-06-12T01:07:00Z,bag_01,Canvas Tote,2,$18.00,2.70,,Delivered,app,in,user11@example.com,,,L2,1
+ORD-1334,CUST-007,2026-05-04 17:05 +05:30,NOTE-A5,Spiral Notebook A5,1,120.00,10%,INR,Return,store,IN,user7@example.com,+91 9891786040,,L2,1
+ORD-1355,CUST-007,2026-05-25T13:15:00Z,bag_01,Canvas Tote,-1,18.00,10%,USD,Delivered,Website,IN,user7@example.com,+91 9880491768,,L1,1
+ORD-1278,CUST-011,2026-05-05T10:26:00Z,TSHIRT-M,Cotton Tee M,3,Rs. 799,5%,INR,Delivered,Mobile App,United States,user11@example.com,,,L1,1
+ORD-1492,CUST-012,2026-05-01T03:06:00Z,BAG-01,Canvas Tote,1,18.00,1.80,USD,Shipped,WEB,India,,,,L1,1
+ORD-1021,CUST-007,2026-05-05 09:15 +05:30,BTL-STL,Steel Bottle,1,650.00,0.00,INR,TEST,web,United States,user7@example.com,+91 9887201917,,L1,1
+ORD-1458,CUST-008,2026-05-16T00:50:00Z,TSHIRT-M,cotton tee m,0,₹799.00,39.95,INR,Delivered,WEB,USA,user8@example.com,+91 9877167702,,L1,1
+ORD-1081,CUST-008,2026-02-30T10:00:00Z,mug_blk,Black Ceramic Mug,2,450.00,0.00,INR,TEST,Mobile App,in,,,,L3,1
+ ORD-1402 ,CUST-009,2026-05-22T06:37:00Z,BAG-01,Canvas Tote,3,18.00,20%,USD,Delivered,Website,United States,,,,L2,1
+ORD-1090,CUST-007,2026-05-03T13:21:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,0.00,INR,Shipped,web,in,user7@example.com,+91 9880658723,,L2,1
+ORD-1007,CUST-011,,BTL-STL,Steel Bottle,1,650.00,0.00,INR,Shipped,store,USA,user11@example.com,+91 9821003626,,L2,1
+ORD-1275,cust-009,2026-05-18T00:09:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,0.00,INR,Delivered,store,IN,user9@example.com,+91 9870410362,,L1,1
+ORD-1022,CUST-008,2026-02-30T10:00:00Z,mug_blk,Blk Ceramic Mug,1,450.00,0.00,INR,Shipped,WEB,IN,user8@example.com,+91 9898930456,,L2,1
+ORD_1483,CUST-008,2026-06-07T10:28:00Z,mug_blk,Black Ceramic Mug,5000,450.00,,INR,Shipped,app,US,,,,L2,1
+ORD-1487,CUST-007,2026-06-06T22:46:00Z,TSHIRT-M,Cotton Tee M,1,799.00,0.00,INR,canceled,app,US,user7@example.com,+91 9866208717,,L1,1
+ORD1276,CUST-007,2026-05-13T11:10:00Z,TSHIRT-M,Cotton Tee M,1,799.00,39.95,INR,Shipped,WEB,India,user7@example.com,+91 9870588691,,L1,1
+ORD-1335,CUST-010,2026-05-30T21:51:00Z,TSHIRT-M,Cotton Tee M,1,799.00,,,Pending,app,IN,user10@example.com,+91 9890407082,,L1,1
+ORD1262,CUST-008,2026-05-12T08:29:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,22.50,INR,Return,Website,United States,user8@example.com,+91 9845370495,,L2,1
+ORD-1154,cust-10,2026-05-19T15:59:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,12.00,INR,Delivered,WEB,in,user10@example.com,+91 9810882216,,L3,1
+ORD-1322,CUST09,2026-06-12T10:07:00+05:30,MUG-BLK,black ceramic mug,2,450.00,0.00,inr,Delivered,Website,USA,,,,L1,1
+ORD-1121,CUST-007,2026-06-14T15:03:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,15%,INR,Delivered,store,USA,,,,L1,1
+ORD-1012,CUST-008,2026-05-29T00:18:00Z,TSHIRT-M,Cotton Tee M,-1,₹799.00,79.90,INR,Delivered,app,India,user8@example.com,+91 9810054484,,L2,1
+ORD-1391,CUST-007,2026-05-18T19:23:00Z,BAG-01,Canvas Tote,3,18,0.00,USD,Delivered,Mobile App,US,user7@example.com,+91 9836542426,,L1,1
+ORD-1236,CUST-007,2026-05-30T22:40:00Z,MUG-BLK,black ceramic mug,1,450.00,15%,INR,Pending,WEB,in,,,,L1,1
+ ORD-1475 ,CUST-009,2026-05-30T21:53:00Z,btl_stl,Steel Bottle,0,650.00,32.50,INR,Delivered,store,in,,,,L1,1
+ORD1200,CUST-012,2026-05-19T16:10:00Z,BAG-01,Canvas Tote,1,18.00,,USD,Delivered,Mobile App,US,,,,L1,1
+ORD-1124,CUST-012 ,,BTL-STL,Steel Bottle,1,650.00,130.00,INR,Delivered,Mobile App,USA,user12@example.com,,,L2,1
+ ORD-1016 ,CUST-008,2026-06-07T19:22:00Z,BTL-STL,Steel Bottle,3,650.00,5%,INR,DELIVERED,Mobile App,India,,,,L1,1
+ORD-1481,CUST-010,2026-05-26T16:30:00Z,btl_stl,Steel Bottle,-2,650.00,15%,INR,Pending,Mobile App,in,,,,L2,1
+ORD-1205,CUST-012,2026-05-04T05:14:00Z,HOODIE-L,Hoodie L,0,1499.00,0.00,INR,Shipped,app,India,user12@example.com,+91 9822421986,,L1,1
+ORD-1257,CUST-010,2026-05-09T05:20:00Z,hoodie_l,Hoodie L,3,1499.00,0.00,INR,Cancelled,WEB,USA,user10@example.com,,,L2,1
+ord-1482,CUST-007,2026-06-09 18:03 +05:30,MUG-BLK,Black Ceramic Mug,1,450.00,,Rs,DELIVERED,store,IN,,,,L1,1
+ORD-1425,CUST-010,2026/05/02 13:59 -04:00,BTL-STL,Steel Bottle,2,650.00,0.00,INR,Pending,app,United States,,,,L1,1
+ORD-1358,CUST-99,2026-06-09T03:16:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,INR,Delivered,WEB,India,user11@example.com,+91 9881559021,dozen,L2,1
+ORD-1103,CUST-008,2026-05-03T23:18:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,6.00,INR,Delivered,app,US,,,,L3,1
+ORD-1426,CUST-011,2026-05-09T22:48:00Z,XYZ-999,Cotton Tee  M,2,799.00,159.80,INR,Delivered,Mobile App,United States,user11@example.com,,,L2,1
+ORD_1434,CUST-010,2026-06-04T11:12:00+05:30,BAG-01,Canvas Tote,-1,$ 18.00,15%,USD,Delivered,Mobile App,IN,,,,L1,1
+ord-1270,CUST12,2026-06-11T22:38:00Z,mug_blk,Black Ceramic Mug,2,450.00,,INR,Cancelled,WEB,US,user12@example.com,+91 9876719940,,L3,1
+ORD-1483,CUST-008,2026-06-07T10:28:00Z,HOODIE-L,Hoodie L,5000,1499.00,0.00,INR,Shipped,app,US,,,,L1,1
+ORD-1416,cust-8,2026-05-25T07:13:00Z,TSHIRT-M,Cotton Tee M,1,799,39.95,INR,Return,Website,India,user8@example.com,+91 9859517025,,L1,1
+ORD-1310,cust-11,,BTL-STL,Steel Bottle,5,₹ 650.00,20%,INR,Delivered,WEB,India,,,,L2,1
+ORD-1482,CUST-007,2026-06-09T12:33:00Z,HOODIE-L,Hoodie L,1,1499.00,224.85,INR,Delivered,store,IN,,,,L2,1
+ORD1084,CUST-010,2026-06-09T09:56:00Z,MUG-BLK,Blk Ceramic Mug,2,450.00,90.00,INR,Delivered,web,USA,user10@example.com,,,L2,1
+ORD-1346,CUST-010,2026-05-28T08:50:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,15%,INR,Cancelled,Mobile App,USA,user10@example.com,+91 9854109233,,L1,1
+ORD-1079,cust-007,2026-05-07T00:56:00Z,MUG-BLK,Black Ceramic Mug,2,₹ 450.00,10%,INR,Delivered,web,United States,user7@example.com,+91 9869735865,,L1,1
+ORD-1476,CUST-010,2026-05-14T04:35:00Z,XYZ-999,Steel Bottle,5,650.00,0.00,,weird,app,USA,user10@example.com,+91 9854644060,,L1,1
+ORD-1418,CUST-007,2026-05-14T10:40:00Z,BAG-01,Canvas Tote,2,18,15%,usd,Pending,Mobile App,IN,user7@example.com,+91 9861882781,,L1,1
+ord-1376,CUST-012,2026-05-09T20:16:00Z,btl_stl,Steel Bottle,3,650.00,0.00,INR,Delivered,Mobile App,IN,user12@example.com,,,L1,1
+ORD-1054,CUST-012,2026-06-14 00:24 +05:30,btl_stl,Steel Bottle,3,650.00,5%,INR,Delivered,web,IN,,,dozen,L1,1
+ORD-1122,CUST-010 ,2026-06-10T09:01:00Z,TSHIRT-M,Cotton Tee M,1,₹ 799.00,,INR,Cancelled,Website,US,,,,L1,1
+ORD-1336,CUST-97,2026-05-22T00:34:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Shipped,Website,USA,,,,L1,1
+ORD-1049,CUST-012,2026-05-28T19:25:00Z,BAG-01,Canvas Tote,5000,18.00,,,Shipped,app,in,user12@example.com,,,L1,1
+ORD-1227,cust-008,2026-05-15T21:54:00Z,btl_stl,Steel Bottle,2,650.00,97.50,INR,Delivered,WEB,USA,user8@example.com,+91 9847590802,,L2,1
+ORD1226,CUST-011,2026-06-14T11:15:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,TEST,Mobile App,United States,,,,L1,1
+ORD_1314,CUST-007,2026-06-13T21:47:00-04:00,BTL-STL,Steel Bottle,2,650.00,130.00,INR,Return,web,in,user7@example.com,+91 9839855629,,L1,1
+ORD_1058,CUST-012,2026-06-02T00:10:00Z,hoodie_l,Hoodie L,1,1499.00,0.00,INR,Delivered,store,IN,,,,L1,1
+ORD-1025,CUST-010,2026-06-05T13:38:00Z,note_a5,Spiral Notebook A5,1,120.00,24.00,INR,Delivered,WEB,United States,,,,L1,1
+ORD-1078,CUST-008,21-05-2026 02:00,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Shipped,Website,United States,user8@example.com,,dozen,L1,1
+ORD-1218,CUST-008,2026-06-02T23:58:00Z,XYZ-999,Spiral Notebook A5,2,120.00,20%,Rs,delivered,WEB,USA,user8@example.com,+91 9867977016,,L1,1
+ORD-1473,CUST-012,2026-05-23T07:53:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,,INR,weird,Website,US,user12@example.com,,,L1,1
+ORD-1110,,2026-05-26T23:17:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,0.00,INR,Return,Mobile App,United States,,,,L2,1
+ORD1430,CUST-010,2026-05-05T17:07:00Z,BTL-STL,Steel Bottle,5,₹ 650.00,97.50,,Shipped,Website,India,,,,L1,1
+ORD-1405,CUST-011 ,2026-05-29T05:27:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,0.00,INR,Pending,Mobile App,IN,,,,L1,1
+ORD-1004,CUST-007 ,2026-06-03T07:26:00Z,BTL-STL,Steel Bottle,1,₹ 650.00,15%,INR,Delivered,Website,United States,user7@example.com,+91 9881498611,,L1,1
+ORD-1405,CUST-011,2026-05-29T05:27:00Z,BTL-STL,Steel Bottle,0,650.00,97.50,INR,weird,Mobile App,IN,,,,L2,1
+ ORD-1015 ,CUST-008,2026-06-13T21:43:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,90.00,INR,TEST,store,US,user8@example.com,+91 9851870192,,L2,1
+ORD-1244,cust-8,2026-05-02T04:02:00Z,BAG-01,Canvas Tote,2,18.00,3.60,USD,Cancelled,app,United States,,,,L1,1
+ORD-1137,CUST-009,2026-05-22T17:37:00-04:00,MUG-BLK,Black Ceramic Mug,1,₹450.00,5%,Rs,weird,app,IN,,,,L1,1
+ORD-1165,CUST-011,2026-06-06T07:44:00Z,BAG-01,Canvas Tote,5,18.00,,USD,Cancelled,web,US,user11@example.com,+91 9856109986,,L2,1
+ORD-1382,CUST-009,2026-06-08T19:16:00Z,TSHIRT-M,Cotton Tee M,2,₹ 799.00,39.95,INR,Delivered,Website,United States,user9@example.com,,,L1,1
+ORD-1307,CUST-99,2026-06-13T06:42:00Z,hoodie_l,Hoodie L,5,1499.00,0.00,INR,CANCELLED,app,in,user12@example.com,,,L2,1
+ORD-1332,CUST-008,2026-05-15T12:27:00Z,HOODIE-L,Hoodie L,1,₹ 1499.00,74.95,INR,Delivered,Mobile App,United States,user8@example.com,+91 9871027736,,L1,1
+ORD-1350,CUST-010,2026-05-19T00:52:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,Delivered,WEB,IN,,,,L1,1
+ORD1356,CUST-011,2026-05-31T10:06:00Z,TSHIRT-M,Cotton Tee M,0,799.00,,INR,Shipped,Mobile App,United States,,,,L1,1
+ ORD-1143 ,cust-11,2026-06-12T03:35:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,15%,INR,Delivered,Mobile App,US,,,dozen,L1,2
+ORD1325,CUST12,2026-05-12T12:23:00Z,NOTE-A5,Spiral Notebook A5,5000,120.00,0.00,INR,Delivered,store,US,user12@example.com,+91 9886796822,,L3,1
+ORD-1162,CUST-008,2026-05-08T21:03:00Z,btl_stl,Steel Bottle,5,650.00,0.00,INR,Delivered,store,United States,,,,L2,1
+ORD-1222,CUST-010,2026-05-11T14:37:00Z,hoodie_l,Hoodie L,2,1499.00,224.85,INR,Pending,WEB,IN,,,,L1,1
+ORD-1078,CUST-008,2026-05-21T02:00:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Shipped,Website,United States,user8@example.com,,dozen,L1,1
+ORD-1395,cust-10,2026-06-14T20:11:00Z,BAG-01,Canvas Tote,1,18.00,,USD,Delivered,store,India,user10@example.com,,,L3,1
+ORD-1344,CUST-94,2026-05-27T13:02:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Delivered,store,USA,user8@example.com,+91 9844818920,,L2,1
+ORD-1446,,2026-05-22T21:08:00Z,mug_blk,Black Ceramic Mug,5,Rs. 450,,INR,Delivered,Mobile App,USA,,,,L1,1
+ ORD-1296 ,CUST-007,2026-05-06T12:38:00Z,note_a5,Spiral Notebook A5,1,120.00,18.00,INR,pending,WEB,United States,,,,L1,1
+ORD-1471,CUST-010,2026-05-03T15:45:00Z,btl_stl,Steel Bottle,0,650.00,32.50,,TEST,WEB,US,,,,L2,1
+ORD-1265,CUST-011,2026/05/21 13:27 -04:00,note_a5,Spiral Notebook A5,2,₹ 120.00,0.00,INR,delivered,app,India,user11@example.com,,,L1,1
+ORD-1076,CUST-012,2026-05-15T15:48:00Z,BTL-STL,Steel Bottle,5,650.00,10%,INR,Pending,Mobile App,US,,,,L1,1
+ORD-1075,CUST-007,2026-05-13T12:12:00Z,BTL-STL,Steel Bottle,3,650,32.50,INR,TEST,store,US,user7@example.com,+91 9871380637,dozen,L3,1
+ORD1489,CUST-008,2026-05-16T04:03:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,0.00,INR,Delivered,web,US,,,,L1,1
+ORD-1467,CUST-007,2026-06-02T17:47:00Z,HOODIE-L,Hoodie L,2,1499.00,224.85,INR,Shipped,Mobile App,USA,,,,L1,1
+ORD-1364,CUST-011,2026-05-09T02:19:00Z,TSHIRT-M,Cotton Tee  M,2,799.00,0.00,INR,Delivered,web,United States,user11@example.com,+91 9836658273,,L2,1
+ORD-1190,CUST-010,2026-05-20T22:28:00Z,MUG-BLK,Black Ceramic Mug,5,450.00,0.00,INR,Delivered,Mobile App,US,user10@example.com,+91 9826001148,,L1,1
+ORD-1253,CUST-90,2026-05-02T18:45:00Z,MUG-BLK,black ceramic mug,1,450.00,22.50,INR,Delivered,WEB,in,user7@example.com,+91 9831637275,,L1,1
+ORD-1176,CUST-009,01-05-2026 15:50,HOODIE-L,Hoodie L,5000,1499.00,0.00,INR,Delivered,Website,India,,,,L1,2
+ORD-1099,CUST-95,2026-06-14T00:14:00Z,HOODIE-L,Hoodie L,2,1499.00,299.80,INR,Delivered,Mobile App,US,,,dozen,L1,1
+ORD-1060,CUST-98,2026-05-30T12:34:00Z,bag_01,Canvas Tote,1,18.00,10%,USD,Shipped,Mobile App,IN,user11@example.com,+91 9878829070,,L1,1
+ORD-1426,CUST-011,2026-05-09T22:48:00Z,BTL-STL,Steel Bottle,2,650.00,10%,INR,Delivered,Mobile App,United States,user11@example.com,,,L1,1
+ORD-1325,cust-12,2026-05-12T12:23:00Z,NOTE-A5,Spiral Notebook A5,2,₹120.00,12.00,INR,Delivered,store,US,user12@example.com,+91 9886796822,,L1,1
+ORD-1074,CUST-008,2026-05-21T19:46:00Z,BAG-01,Canvas Tote,1,18.00,0.00,USD,Cancelled,store,in,user8@example.com,+91 9875697427,,L3,1
+ord-1478,CUST-011,2026-06-07T11:12:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,,inr,weird,web,India,user11@example.com,+91 9865778794,,L2,1
+ORD-1104,CUST-008 ,2026-05-17T06:56:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,INR,delivered,Website,IN,,,,L3,1
+ORD-1325,CUST-012,2026-05-12T12:23:00Z,BAG-01,Canvas Tote,1,18.00,20%,USD,Delivered,store,US,user12@example.com,+91 9886796822,,L2,1
+ord-1152,CUST-008,2026-05-20T05:26:00Z,BAG-01,Canvas Tote,5,18.00,3.60,USD,weird,WEB,India,user8@example.com,,,L2,1
+ORD-1160,CUST-007,2026-05-04T22:03:00Z,BTL-STL,Steel Bottle,2,650,0.00,INR,TEST,store,United States,user7@example.com,+91 9890010054,,L1,1
+ ORD-1215 ,CUST-99,2026-05-15 06:50 +05:30,MUG-BLK,Blk Ceramic Mug,2,450.00,5%,INR,delivered,Website,USA,user12@example.com,+91 9885075065,dozen,L3,1
+ ORD-1059 ,CUST-011,,btl_stl,Steel Bottle,1,₹ 650.00,5%,INR,Shipped,web,USA,user11@example.com,+91 9829374563,,L2,1
+ORD-1098,CUST-007,24-05-2026 10:48,HOODIE-L,Hoodie L,1,1499.00,,INR,Delivered,app,United States,,,,L1,1
+ORD-1107,CUST-010,2026-05-16T02:36:00Z,mug_blk,Black Ceramic Mug,1,450.00,,INR,Return,store,in,user10@example.com,+91 9873502927,,L1,1
+ord-1237,cust-12,2026-05-07T01:11:00Z,MUG-BLK,Black Ceramic Mug,3,450,10%,INR,canceled,Mobile App,IN,user12@example.com,+91 9852676804,,L1,1
+ORD-1133,CUST-012,2026-06-13T12:51:00Z,tshirt_m,Cotton Tee  M,1,799.00,0.00,INR,canceled,store,USA,user12@example.com,+91 9855283492,,L2,1
+ord-1222,CUST-94,2026-05-11T14:37:00Z,BTL-STL,Steel Bottle,2,650.00,65.00,INR,Pending,WEB,IN,,,,L2,1
+ORD-1450,CUST-009,2026-06-03T00:58:00Z,bag_01,Canvas Tote,2,18.00,0.00,USD,Pending,store,in,user9@example.com,+91 9899858121,,L2,1
+ORD-1445,CUST-008,2026-05-29T10:29:00Z,HOODIE-L,Hoodie L,1,1499.00,5%,INR,Delivered,web,United States,user8@example.com,+91 9895074507,,L1,2
+ORD-1064,CUST-012,2026-05-02T11:56:00Z,note_a5,Spiral Notebook A5,2,120.00,5%,INR,Delivered,Website,USA,user12@example.com,,,L1,1
+ORD-1342,cust-010,2026-06-05T20:04:00Z,BAG-01,Canvas Tote,2,18,0.00,USD,TEST,web,United States,user10@example.com,+91 9845232032,,L1,1
+ORD-1217,CUST-007,2026-06-06T23:37:00Z,mug_blk,Black Ceramic Mug,2,450.00,22.50,INR,Delivered,store,India,user7@example.com,,,L1,1
+ORD1448,CUST08,2026-06-06T07:18:00Z,BAG-01,Canvas Tote,1,18.00,1.80,usd,delivered,store,IN,user8@example.com,+91 9853169846,,L1,1
+ORD-1383,CUST-008,26-05-2026 13:29,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Return,Website,IN,user8@example.com,+91 9847746670,,L1,1
+ORD-1460,CUST-011,2026-06-06T05:45:00Z,MUG-BLK,black ceramic mug,1,450.00,0.00,inr,Cancelled,app,United States,,,,L1,1
+ORD-1116,CUST-007,2026-05-26T04:35:00Z,BTL-STL,Steel Bottle,3,₹ 650.00,97.50,INR,Delivered,web,IN,,,,L1,1
+ORD_1344,CUST-008,2026-05-27T13:02:00Z,BTL-STL,Steel Bottle,1,₹650.00,32.50,INR,Delivered,store,USA,user8@example.com,+91 9844818920,,L3,1
+ORD-1461,CUST-007,2026/05/03 00:20 -04:00,NOTE-A5,Spiral Notebook A5,5000,120.00,0.00,INR,Shipped,WEB,IN,,,,L1,1
+ORD-1371,CUST-010,2026-06-12T02:17:00-04:00,MUG-BLK,Black Ceramic Mug,0,450.00,0.00,INR,Delivered,Mobile App,IN,,,,L1,2
+ORD-1461,CUST-92,2026-05-03T04:20:00Z,TSHIRT-M,Cotton Tee M,-2,799.00,159.80,INR,Delivered,WEB,IN,,,,L3,2
+ORD-1332,CUST-008,2026/05/15 08:27 -04:00,NOTE-A5,Spiral Notebook A5,1,120,24.00,INR,Delivered,Mobile App,United States,user8@example.com,+91 9871027736,dozen,L2,1
+ORD-1418,cust-7,2026-05-14T10:40:00Z,tshirt_m,Cotton Tee  M,2,799.00,20%,inr,Pending,Mobile App,IN,user7@example.com,+91 9861882781,,L3,1
+ORD-1375,CUST-007,2026-06-04T15:12:00Z,TSHIRT-M,Cotton Tee  M,1,799.00,0.00,,Delivered,web,USA,user7@example.com,,,L2,1
+ORD1211,CUST-007,2026-06-02T03:34:00Z,TSHIRT-M,Cotton Tee M,1,799.00,79.90,INR,weird,web,IN,user7@example.com,,,L2,1
+ORD-1484,CUST-007,2026-05-15T08:06:00Z,BAG-01,Canvas Tote,3,18.00,0.00,USD,Delivered,app,India,user7@example.com,,,L1,1
+ORD-1274,CUST-010,2026-05-11T21:10:00Z,MUG-BLK,black ceramic mug,1,450.00,67.50,Rs,Delivered,WEB,United States,user10@example.com,+91 9820066099,dozen,L1,1
+ORD-1145,CUST-011,2026-05-19T04:01:00Z,btl_stl,Steel Bottle,5,650,0.00,INR,return,Website,India,user11@example.com,+91 9868316409,dozen,L2,1
+ORD-1410,,2026-05-26 17:22 +05:30,NOTE-A5,Spiral Notebook A5,2,120.00,15%,INR,TEST,WEB,United States,,,,L3,1
+ORD-1239,CUST-008,2026/06/06 07:23 -04:00,tshirt_m,Cotton Tee M,3,799.00,15%,INR,Return,Website,USA,,,dozen,L2,1
+ORD-1267,CUST-008,2026-05-21T17:00:00Z,MUG-BLK,black ceramic mug,4,450.00,,INR,Shipped,web,United States,,,,L2,1
+ORD-1055,CUST-009 ,,HOODIE-L,Hoodie L,3,1499.00,,INR,Delivered,WEB,United States,user9@example.com,+91 9835925669,,L1,1
+ORD-1372,CUST-011,2026-05-08T21:21:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,22.50,inr,Return,web,USA,,,,L1,1
+ORD-1125,CUST-010,2026-05-30T15:41:00Z,BAG-01,Canvas Tote,5,18.00,0.00,USD,Shipped,WEB,in,user10@example.com,+91 9881954780,,L1,1
+ORD-1436,CUST-010,2026-05-18T05:40:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,0.00,INR,Pending,app,US,,,dozen,L1,1
+ORD-1324,CUST-011,2026-06-09T21:08:00Z,note_a5,Spiral Notebook A5,1,120.00,15%,INR,Delivered,Mobile App,in,,,dozen,L1,1
+ORD-1361,CUST-007,2026-02-30T10:00:00Z,MUG-BLK,Black Ceramic Mug,1,450.00,90.00,INR,Pending,web,USA,user7@example.com,,,L1,1
+ORD1204,CUST-008,2026-06-02T03:05:00Z,NOTE-A5,Spiral Notebook A5,2,₹120.00,0.00,INR,Delivered,Mobile App,in,user8@example.com,+91 9876425800,,L3,1
+ORD-1489,CUST-008 ,2026-05-16T04:03:00Z,tshirt_m,Cotton Tee M,3,₹799.00,0.00,INR,Delivered,web,US,,,,L3,1
+ORD-1459,CUST-012,2026-05-21 08:16 +05:30,MUG-BLK,black ceramic mug,1,Rs. 450,67.50,INR,Return,Website,USA,user12@example.com,+91 9885384682,,L2,1
+ORD1125,CUST-010,2026-05-30T15:41:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,12.00,INR,Shipped,WEB,in,user10@example.com,+91 9881954780,,L2,1
+ORD-1394,CUST-010 ,2026-02-30T10:00:00Z,XYZ-999,Black Ceramic Mug,2,450.00,0.00,INR,Shipped,Mobile App,USA,user10@example.com,+91 9881032794,,L1,1
+ORD-1364,CUST-011,2026-05-09T02:19:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Delivered,web,United States,user11@example.com,+91 9836658273,,L1,2
+ ORD-1172 ,CUST-009,2026-06-07T21:36:00-04:00,BAG-01,Canvas Tote,0,18.00,10%,USD,delivered,web,USA,,,,L1,1
+ORD-1348,CUST-010,2026-05-15T19:44:00Z,BAG-01,Canvas Tote,0,18.00,0.90,USD,delivered,WEB,USA,user10@example.com,,,L1,1
+ORD-1220,CUST-012,2026-05-02T01:15:00Z,TSHIRT-M,cotton tee m,1,799.00,79.90,INR,Return,store,USA,,,,L2,1
+ORD-1454,CUST-010,05-06-2026 10:46,MUG-BLK,Black Ceramic Mug,1,450.00,,INR,Delivered,web,India,user10@example.com,,,L1,1
+ORD-1386,cust-007,01-06-2026 15:26,btl_stl,Steel Bottle,2,650.00,5%,INR,RETURN,Mobile App,in,,,,L1,1
+ORD-1196,CUST-007,10-05-2026 04:37,NOTE-A5,Spiral Notebook A5,1,120.00,12.00,INR,Delivered,store,USA,user7@example.com,+91 9844681437,,L1,1
+ORD-1141,CUST-009,2026-05-11T01:05:00Z,mug_blk,Black Ceramic Mug,2,450.00,0.00,INR,Delivered,web,India,,,,L1,2
+ORD-1334,CUST-007,2026-05-04 17:05 +05:30,NOTE-A5,Spiral Notebook A5,1,120.00,10%,INR,Return,store,IN,user7@example.com,+91 9891786040,,L2,1
+ORD-1338,CUST-010,2026-05-26T00:49:00Z,BAG-01,Canvas Tote,5,18,2.70,,Shipped,WEB,in,user10@example.com,,dozen,L1,1
+ORD-1154,CUST-010,,BTL-STL,Steel Bottle,3,Rs. 650,0.00,INR,canceled,WEB,in,user10@example.com,+91 9810882216,,L2,1
+ORD-1206,CUST-009,2026-05-31T06:55:00Z,note_a5,Spiral Notebook A5,3,120.00,10%,INR,Shipped,Mobile App,US,user9@example.com,+91 9836826266,pack,L2,1
+ORD-1210,CUST-010,2026-05-14T19:40:00Z,TSHIRT-M,Cotton Tee M,-2,799.00,10%,INR,Delivered,app,in,user10@example.com,+91 9812433447,,L1,1
+ORD-1120,CUST10,2026/05/17 09:26 -04:00,HOODIE-L,Hoodie L,5000,1499.00,299.80,INR,Pending,Website,USA,user10@example.com,+91 9892414513,,L1,1
+ORD-1490,CUST-012,2026/05/12 03:11 -04:00,NOTE-A5,Spiral Notebook A5,0,120.00,12.00,INR,TEST,store,India,user12@example.com,,,L1,1
+ORD_1409,CUST-008,2026-06-09T04:38:00Z,TSHIRT-M,Cotton Tee M,1,799,79.90,INR,Shipped,WEB,IN,,,,L1,1
+ORD-1259,CUST-012,2026-02-30T10:00:00Z,BAG-01,Canvas Tote,1,18,0.00,USD,Cancelled,Website,India,,,,L1,1
+ORD-1189,CUST-011,2026-05-16T19:55:00Z,hoodie_l,Hoodie L,2,1499.00,20%,INR,canceled,WEB,India,user11@example.com,,,L3,1
+ORD-1272,CUST-008,2026/05/19 01:20 -04:00,btl_stl,Steel Bottle,1,650.00,10%,INR,Delivered,Mobile App,India,,,,L1,1
+ORD-1344,CUST-008,2026-05-27T13:02:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,INR,Delivered,store,USA,user8@example.com,+91 9844818920,,L1,1
+ORD-1493,CUST-008,2026-06-02 00:51 +05:30,HOODIE-L,Hoodie L,2,1499,,inr,weird,store,USA,,,,L2,1
+ORD-1466,CUST-011,2026-05-07T07:32:00Z,BTL-STL,Steel Bottle,2,650.00,97.50,INR,TEST,web,USA,user11@example.com,+91 9871300688,,L2,1
+ ORD-1457 ,CUST-008,2026-02-30T10:00:00Z,MUG-BLK,black ceramic mug,3,450.00,0.00,INR,Delivered,Website,in,user8@example.com,+91 9815414590,,L1,1
+ORD-1329,cust-007,2026-06-14T04:20:00Z,TSHIRT-M,Cotton Tee M,2,799.00,0.00,,DELIVERED,WEB,IN,,,,L2,1
+ORD-1426,CUST-011,2026-05-09T22:48:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,67.50,INR,Delivered,Mobile App,United States,user11@example.com,,,L3,1
+ORD-1347,CUST-007,2026/06/04 10:36 -04:00,tshirt_m,Cotton Tee M,1,799.00,0.00,Rs,Delivered,store,United States,user7@example.com,+91 9869485073,,L1,1
+ORD-1423,CUST-011 ,2026-05-13T22:41:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,20%,INR,Delivered,store,United States,user11@example.com,+91 9844894223,,L1,1
+ORD-1299,CUST-009,2026-05-27T19:11:00Z,XYZ-999,Blk Ceramic Mug,1,450.00,0.00,INR,Delivered,WEB,USA,,,,L2,1
+ ORD-1478 ,cust-11,2026-06-07T11:12:00Z,HOODIE-L,Hoodie L,1,1499.00,,INR,Shipped,web,India,user11@example.com,+91 9865778794,,L1,1
+ORD-1309,CUST-007,2026-05-14T05:42:00Z,TSHIRT-M,cotton tee m,2,799.00,0.00,INR,TEST,web,IN,,,,L3,1
+ ORD-1039 ,CUST-011,2026/05/06 19:08 -04:00,HOODIE-L,Hoodie L,2,1499.00,149.90,INR,Return,WEB,India,user11@example.com,+91 9834272734,,L2,1
+ORD-1130,CUST-008,2026-05-18T06:26:00Z,TSHIRT-M,Cotton Tee M,2,799.00,,INR,Delivered,Website,USA,user8@example.com,+91 9892245683,,L1,1
+ord-1376,CUST-012,2026-05-09T16:16:00-04:00,btl_stl,Steel Bottle,3,650.00,0.00,INR,Delivered,Mobile App,IN,user12@example.com,,,L1,1
+ORD1083,CUST-007 ,2026-05-11T09:28:00Z,MUG-BLK,Black Ceramic Mug,2,₹450.00,0.00,INR,Delivered,web,IN,,,,L1,1
+ORD-1280,CUST-010,,NOTE-A5,Spiral Notebook A5,5,₹120.00,0.00,INR,Cancelled,web,United States,user10@example.com,,,L2,1
+ORD-1015,CUST-008,2026-06-13T21:43:00Z,NOTE-A5,Spiral Notebook A5,0,120.00,0.00,,canceled,store,US,user8@example.com,+91 9851870192,,L1,1
+ord-1289,CUST-012,2026-05-01T03:23:00Z,XYZ-999,Cotton Tee M,2,799.00,0.00,INR,Shipped,store,in,user12@example.com,+91 9893499311,,L1,1
+ORD-1090,CUST-007,2026-05-03 18:51 +05:30,tshirt_m,cotton tee m,1,799.00,0.00,INR,Shipped,web,in,user7@example.com,+91 9880658723,,L1,1
+ORD-1351,CUST-012,2026-05-31T06:47:00Z,TSHIRT-M,Cotton Tee M,0,₹ 799.00,0.00,inr,Delivered,store,USA,user12@example.com,,,L1,1
+ORD_1428,CUST-009,15-05-2026 02:02,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,Return,WEB,United States,,,,L1,1
+ORD-1464,CUST-010,2026-02-30T10:00:00Z,TSHIRT-M,Cotton Tee M,0,799,20%,INR,Shipped,store,US,user10@example.com,,,L1,1
+ORD-1472,CUST-012,2026-06-09T23:27:00Z,BAG-01,Canvas Tote,1,18.00,5%,USD,Delivered,store,IN,user12@example.com,,dozen,L1,1
+ORD-1401,CUST-007,2026-05-04T22:02:00Z,HOODIE-L,Hoodie L,1,1499.00,20%,,Shipped,WEB,United States,,,,L3,1
+ORD1046,CUST-007,2026-06-14T20:01:00Z,BAG-01,Canvas Tote,2,18,15%,USD,Delivered,app,USA,user7@example.com,+91 9876306502,,L1,1
+ ORD-1303 ,CUST07,2026-05-18T14:50:00Z,BTL-STL,Steel Bottle,-2,₹650.00,5%,INR,Delivered,Website,US,,,,L1,2
+ORD-1129,CUST-009,2026/05/23 05:46 -04:00,BTL-STL,Steel Bottle,2,650.00,15%,INR,TEST,app,US,,,,L1,1
+ ORD-1406 ,CUST-011,2026-05-23T13:54:00+05:30,HOODIE-L,Hoodie L,1,1499.00,,INR,Delivered,app,USA,user11@example.com,+91 9831843423,,L1,1
+ORD-1308,CUST-95,2026-05-05T23:14:00Z,BTL-STL,Steel Bottle,2,650.00,20%,INR,Delivered,Website,India,user9@example.com,+91 9878590026,,L1,1
+ORD-1371,CUST-010,2026-06-12T06:17:00Z,HOODIE-L,Hoodie L,1,"₹1,499.00",74.95,INR,Shipped,Mobile App,IN,,,,L3,1
+ord-1250,,2026-05-06T22:58:00Z,hoodie_l,Hoodie L,5,"₹1,499.00",0.00,Rs,Delivered,store,in,user7@example.com,,,L2,1
+ORD-1298,CUST-012,2026-06-01T20:10:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,INR,Delivered,store,IN,user12@example.com,+91 9848927998,,L2,1
+ORD-1441,CUST-94,,NOTE-A5,Spiral Notebook A5,3,120.00,0.00,INR,TEST,Mobile App,IN,user8@example.com,+91 9811570055,,L1,1
+ord-1110,cust-011,2026-05-26T23:17:00Z,bag_01,Canvas Tote,2,$18.00,15%,USD,Return,Mobile App,United States,,,,L1,1
+ORD-1213,CUST-010 ,2026-06-14T22:01:00Z,TSHIRT-M,Cotton Tee M,2,799.00,0.00,INR,Delivered,app,United States,user10@example.com,,,L2,1
+ORD-1214,CUST-012,2026-02-30T10:00:00Z,NOTE-A5,Spiral Notebook A5,5000,120.00,24.00,INR,Cancelled,app,IN,user12@example.com,+91 9831050667,,L3,1
+ORD-1467,CUST-007,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,2,1499.00,224.85,INR,Shipped,Mobile App,USA,,,,L1,1
+ord-1115,CUST-009,2026-05-26T09:34:00Z,NOTE-A5,Spiral Notebook A5,2,₹120.00,0.00,INR,Delivered,Mobile App,US,user9@example.com,,,L1,1
+ORD-1003,,2026-05-07T08:30:00Z,HOODIE-L,Hoodie L,0,1499.00,15%,INR,Return,WEB,US,user9@example.com,+91 9845264581,,L1,1
+ORD-1345,CUST-92,2026-05-09T07:32:00Z,tshirt_m,Cotton Tee M,1,799.00,,INR,Pending,Website,India,,,,L1,1
+ord-1453,CUST-011,2026-05-05T03:51:00Z,HOODIE-L,Hoodie L,5,1499.00,,INR,Delivered,Mobile App,India,,,,L1,1
+ORD-1326,CUST-010,2026/05/26 16:35 -04:00,MUG-BLK,Black Ceramic Mug,-1,450.00,22.50,INR,Delivered,WEB,US,,,,L1,1
+ORD-1404,cust-11,2026-06-06T09:44:00Z,HOODIE-L,Hoodie L,2,1499.00,224.85,INR,Return,app,India,user11@example.com,+91 9819691415,,L2,1
+ORD-1295,CUST-009,2026-06-06T14:35:00Z,tshirt_m,Cotton Tee M,2,799.00,39.95,INR,Delivered,Website,US,user9@example.com,+91 9836777331,,L1,1
+ORD_1397,CUST-007,2026-05-30T08:14:00Z,hoodie_l,Hoodie L,0,1499.00,0.00,INR,Delivered,web,United States,,,,L1,1
+ORD-1368,CUST-012,18-05-2026 15:11,BAG-01,Canvas Tote,1,18.00,0.00,USD,Shipped,store,US,,,dozen,L1,1
+ORD-1047,CUST-007,,HOODIE-L,Hoodie L,3,"Rs. 1,499",149.90,INR,weird,store,India,user7@example.com,+91 9887412924,,L1,1
+ORD-1399,,2026-05-18T20:51:00Z,HOODIE-L,Hoodie L,-2,1499.00,0.00,INR,SHIPPED,WEB,United States,user9@example.com,+91 9813867816,,L1,1
+ORD-1307,CUST-012,2026-06-13T12:12:00+05:30,BTL-STL,Steel Bottle,-1,650.00,0.00,,Cancelled,app,in,user12@example.com,,,L3,1
+ORD_1219,CUST-010,26-05-2026 07:04,tshirt_m,Cotton Tee M,6,799.00,159.80,INR,canceled,Mobile App,US,,,dozen,L2,1
+ORD1270,cust-12,2026-06-11T22:38:00Z,BAG-01,Canvas Tote,2,18.00,0.00,USD,cancelled,WEB,US,user12@example.com,+91 9876719940,,L2,1
+ORD-1022,CUST-008,2026-05-16T00:14:00Z,MUG-BLK,Black Ceramic Mug,2,450,0.00,INR,Shipped,WEB,IN,user8@example.com,+91 9898930456,,L1,1
+ORD_1014,CUST-007,2026-06-12T21:43:00Z,HOODIE-L,Hoodie L,1,1499.00,,INR,Shipped,WEB,United States,user7@example.com,,,L2,1
+ORD-1105,CUST-008,2026-05-05T17:16:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,Rs,Pending,Mobile App,India,user8@example.com,+91 9886362294,,L3,1
+ORD-1068,CUST-007,2026-06-13T04:22:00Z,HOODIE-L,Hoodie L,5,1499.00,0.00,INR,Shipped,app,US,user7@example.com,,,L1,1
+ORD-1013,CUST-010,2026-05-10T23:01:00Z,TSHIRT-M,Cotton Tee M,1,799.00,79.90,INR,Cancelled,Mobile App,IN,user10@example.com,,,L1,1
+ORD_1443,CUST-007,2026-06-03T08:01:00Z,MUG-BLK,black ceramic mug,5,450,15%,inr,Delivered,Website,in,user7@example.com,,,L1,1
+ORD1124,CUST-012,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,1,1499.00,0.00,,Delivered,Mobile App,USA,user12@example.com,,,L3,1
+ORD-1266,CUST12,2026-05-28T12:59:00Z,XYZ-999,Canvas Tote,5000,18.00,5%,USD,Delivered,web,United States,,,,L1,1
+ORD1421,CUST-010,,BTL-STL,Steel Bottle,2,₹ 650.00,0.00,,Delivered,Website,USA,user10@example.com,+91 9832131755,,L1,1
+ord-1207,CUST-011 ,2026-05-20T08:07:00Z,TSHIRT-M,Cotton Tee M,5000,799.00,39.95,INR,Delivered,app,in,user11@example.com,+91 9886299853,,L2,1
+ORD-1156,CUST-009,2026-05-26T17:04:00Z,TSHIRT-M,Cotton Tee  M,3,799.00,5%,INR,Delivered,WEB,USA,,,,L1,1
+ ORD-1225 ,cust-10,2026-02-30T10:00:00Z,TSHIRT-M,Cotton Tee M,2,799.00,20%,Rs,Delivered,web,IN,,,dozen,L1,1
+ORD-1363,CUST-008,2026-05-10T18:11:00+05:30,hoodie_l,Hoodie L,1,1499.00,20%,INR,Pending,app,United States,user8@example.com,,,L2,1
+ ORD-1213 ,CUST-010,2026-06-14T22:01:00Z,BAG-01,Canvas Tote,-2,18.00,,USD,Delivered,app,United States,user10@example.com,,,L1,1
+ORD-1317,CUST-007,2026-05-13T01:04:00-04:00,BTL-STL,Steel Bottle,1,650.00,15%,inr,Delivered,app,US,user7@example.com,+91 9895398202,,L2,1
+ORD-1268,CUST-009,2026-05-17T06:16:00Z,TSHIRT-M,Cotton Tee M,2,799.00,15%,INR,Delivered,web,USA,user9@example.com,+91 9858384619,,L1,1
+ORD-1071,CUST-012,2026-05-28T17:12:00-04:00,HOODIE-L,Hoodie L,1,1499.00,0.00,INR,Pending,store,US,user12@example.com,,dozen,L1,1
+ord-1028,CUST-009,2026-05-15T20:51:00Z,BAG-01,Canvas Tote,-2,18.00,20%,USD,Delivered,Website,India,,,,L3,1
+ORD-1259,CUST-012,2026-02-30T10:00:00Z,BAG-01,Canvas Tote,1,18,0.00,USD,Cancelled,Website,India,,,,L1,1
+ORD1347,CUST-007,2026-06-04T14:36:00Z,BAG-01,Canvas Tote,2,18,10%,USD,Delivered,store,United States,user7@example.com,+91 9869485073,,L3,1
+ORD-1063,cust-7,,MUG-BLK,Black Ceramic Mug,2,450.00,90.00,INR,Pending,web,United States,user7@example.com,+91 9817531619,,L1,1
+ORD-1486,CUST-012,2026-06-08T01:26:00Z,btl_stl,Steel Bottle,2,650.00,,INR,Pending,WEB,IN,user12@example.com,+91 9848891821,,L1,1
+ORD-1278,CUST-011,05-05-2026 10:26,MUG-BLK,Black Ceramic Mug,-1,450.00,0.00,Rs,Delivered,Mobile App,United States,user11@example.com,,,L3,1
+ORD_1029,CUST-92,,mug_blk,Blk Ceramic Mug,0,450.00,90.00,INR,Shipped,store,IN,,,,L2,1
+ORD-1007,CUST-011,2026-02-30T10:00:00Z,BTL-STL,Steel Bottle,2,Rs. 650,0.00,INR,Delivered,store,USA,user11@example.com,+91 9821003626,,L1,2
+ORD-1081,CUST-008,2026-05-18T14:31:00Z,btl_stl,Steel Bottle,1,650.00,0.00,INR,test,Mobile App,in,,,,L2,1
+ORD-1018,CUST-007,2026-06-14T04:11:00-04:00,btl_stl,Steel Bottle,2,₹ 650.00,10%,INR,Pending,Mobile App,IN,user7@example.com,+91 9826948946,,L1,1
+ORD1266,CUST-012,2026/05/28 08:59 -04:00,XYZ-999,Cotton Tee  M,0,799.00,10%,INR,Delivered,web,United States,,,,L3,2
+ORD-1207,CUST-011,2026-05-20T04:07:00-04:00,NOTE-A5,Spiral Notebook A5,5,120.00,,INR,Delivered,app,in,user11@example.com,+91 9886299853,,L3,1
+ord-1100,CUST-012,2026-06-02T08:42:00Z,BTL-STL,Steel Bottle,1,₹ 650.00,15%,INR,Pending,app,India,,,,L1,1
+ORD-1416,CUST-008,2026-05-25T07:13:00Z,NOTE-A5,Spiral Notebook A5,3,120,18.00,INR,canceled,Website,India,user8@example.com,+91 9859517025,,L3,1
+ORD-1114,,,TSHIRT-M,Cotton Tee M,5,₹ 799.00,0.00,,cancelled,WEB,IN,,,,L1,1
+ORD_1434,CUST-010,2026-06-04T11:12:00+05:30,BAG-01,Canvas Tote,-1,$ 18.00,15%,USD,Delivered,Mobile App,IN,,,,L1,1
+ORD_1024,CUST-007,2026-05-13T20:56:00Z,HOODIE-L,Hoodie L,2,1499.00,299.80,INR,TEST,WEB,United States,,,,L2,1
+ORD-1185,CUST-007,2026-05-13T22:54:00Z,btl_stl,Steel Bottle,2,650.00,130.00,,Cancelled,web,India,user7@example.com,+91 9869804203,,L2,1
+ORD-1409,CUST-008,2026-06-09T04:38:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,5%,INR,Shipped,WEB,IN,,,,L3,1
+ORD-1393,CUST-009,2026-05-29T20:21:00Z,BTL-STL,Steel Bottle,2,Rs. 650,0.00,INR,Shipped,app,USA,,,,L1,1
+ORD-1396,CUST-008,2026-05-07T21:33:00Z,mug_blk,Black Ceramic Mug,2,450.00,0.00,INR,Delivered,app,in,user8@example.com,+91 9841542991,,L1,1
+ORD-1161,CUST-008,2026-05-24T02:48:00Z,BAG-01,Canvas Tote,3,18.00,15%,USD,Delivered,app,USA,user8@example.com,,,L1,1
+ORD-1379,CUST-010,2026-05-22T02:17:00Z,TSHIRT-M,Cotton Tee M,1,799.00,15%,inr,Delivered,store,USA,user10@example.com,+91 9863537178,,L1,1
+ORD-1136,CUST-010 ,03-06-2026 02:11,BAG-01,Canvas Tote,2,18.00,,usd,Shipped,Website,in,user10@example.com,+91 9811976335,,L1,1
+ord-1398,CUST-007,2026-05-10T02:35:00Z,BTL-STL,Steel Bottle,2,₹ 650.00,0.00,INR,Shipped,web,in,user7@example.com,+91 9888213929,,L1,1
+ord-1251,CUST08,2026-05-30 22:31 +05:30,HOODIE-L,Hoodie L,5,₹ 1499.00,299.80,INR,Return,store,United States,,,,L1,1
+ORD-1246,CUST-011,2026-05-11T23:07:00Z,BTL-STL,Steel Bottle,1,₹650.00,65.00,,Return,web,IN,user11@example.com,+91 9898549488,,L2,1
+ORD1499,CUST-010,2026-06-11T00:19:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,0.00,Rs,Delivered,Website,United States,,,,L1,1
+ORD-1450,CUST-009,,BAG-01,Canvas Tote,1,18.00,20%,USD,Pending,store,in,user9@example.com,+91 9899858121,,L1,1
+ORD-1147,CUST07,2026-05-13T22:13:00Z,MUG-BLK,Black Ceramic Mug,2,450.00,90.00,INR,DELIVERED,Mobile App,United States,user7@example.com,+91 9846410780,,L1,1
+ORD-1106,CUST-010,2026-05-21T08:19:00Z,HOODIE-L,Hoodie L,5000,1499.00,0.00,INR,Return,store,IN,user10@example.com,,,L1,1
+ORD-1084,CUST-010,2026-06-09T09:56:00Z,MUG-BLK,Black Ceramic Mug,5000,Rs. 450,,,Delivered,web,USA,user10@example.com,,,L1,1
+ORD-1299,CUST-009,2026-05-27T19:11:00Z,MUG-BLK,Black Ceramic Mug,0,₹ 450.00,,INR,Delivered,WEB,USA,,,,L1,1
+ORD-1399,CUST-009,2026-05-18T20:51:00Z,TSHIRT-M,Cotton Tee M,1,799.00,0.00,INR,Shipped,WEB,United States,user9@example.com,+91 9813867816,,L3,1
+ORD-1216,CUST08,2026-06-11T14:02:00Z,TSHIRT-M,Cotton Tee  M,3,799.00,0.00,INR,Delivered,WEB,USA,,,,L1,1
+ORD-1380,CUST-010,2026-05-14T16:01:00Z,XYZ-999,Cotton Tee  M,2,799.00,0.00,INR,TEST,Mobile App,IN,,,,L1,1
+ORD-1260,CUST-011,2026-05-18T21:56:00Z,TSHIRT-M,Cotton Tee M,2,799.00,,INR,Cancelled,web,US,user11@example.com,+91 9896298460,,L3,1
+ORD-1455,CUST-010,2026-06-11T17:15:00Z,TSHIRT-M,cotton tee m,5000,799.00,0.00,inr,Shipped,app,USA,user10@example.com,+91 9838682565,,L1,1
+ORD-1420,cust-9,2026-05-29T17:47:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,0.00,INR,Cancelled,Website,United States,,,,L3,1
+ORD-1049,CUST-012,2026-05-28T19:25:00Z,btl_stl,Steel Bottle,-2,650.00,0.00,Rs,Shipped,app,in,user12@example.com,,,L3,1
+ORD-1304,CUST-009,2026-06-12T20:17:00Z,NOTE-A5,Spiral Notebook A5,3,120.00,0.00,INR,Delivered,WEB,in,user9@example.com,+91 9897730595,,L1,1
+ORD-1212,CUST-008,2026-05-20T18:07:00Z,TSHIRT-M,Cotton Tee M,5,799,20%,,Pending,store,India,user8@example.com,,,L2,1
+ORD-1001,cust-012,2026-05-06T01:36:00Z,HOODIE-L,Hoodie L,2,1499.00,0.00,INR,Delivered,store,IN,user12@example.com,+91 9839958838,,L2,1
+ORD-1480,CUST-007,2026-06-10 15:32 +05:30,MUG-BLK,Black Ceramic Mug,5000,450.00,0.00,INR,DELIVERED,web,India,,,,L1,1
+ORD-1302,CUST-011,2026-06-12T03:06:00-04:00,XYZ-999,Black Ceramic Mug,2,Rs. 450,20%,INR,Delivered,store,IN,user11@example.com,+91 9827376441,,L1,1
+ORD-1037,CUST-012,2026-05-04T10:18:00Z,bag_01,Canvas Tote,3,18.00,0.00,USD,Shipped,Mobile App,USA,user12@example.com,,,L3,1
+ORD-1109,CUST-010,2026-02-30T10:00:00Z,NOTE-A5,Spiral Notebook A5,5,120.00,20%,INR,Delivered,store,USA,user10@example.com,+91 9878759020,,L1,1
+ ORD-1014 ,CUST-007,2026-06-13T03:13:00+05:30,TSHIRT-M,Cotton Tee M,-1,799.00,,INR,Shipped,WEB,United States,user7@example.com,,,L3,1
+ord-1423,CUST-011,2026-02-30T10:00:00Z,TSHIRT-M,Cotton Tee M,1,799.00,20%,INR,Delivered,store,United States,user11@example.com,+91 9844894223,,L2,1
+ORD-1273,CUST-010,2026-05-04T14:01:00Z,NOTE-A5,Spiral Notebook A5,0,120.00,18.00,INR,Delivered,store,India,,,,L1,1
+ORD-1230,CUST-012 ,2026-05-20T00:13:00Z,TSHIRT-M,Cotton Tee  M,1,799.00,0.00,,Delivered,app,India,user12@example.com,+91 9884953463,,L3,1
+ORD-1246,CUST-011,2026-05-12T04:37:00+05:30,NOTE-A5,Spiral Notebook A5,1,120.00,,INR,weird,web,IN,user11@example.com,+91 9898549488,dozen,L1,1
+ORD-1201,CUST-008 ,2026-05-12T21:56:00Z,XYZ-999,Cotton Tee M,2,Rs. 799,15%,INR,Delivered,web,US,,,,L2,1
+ORD-1043,cust-008,2026-05-23T13:59:00Z,note_a5,Spiral Notebook A5,5000,120.00,0.00,INR,Delivered,WEB,in,,,,L1,1
+ord-1186,,2026-06-03T21:37:00+05:30,NOTE-A5,Spiral Notebook A5,1,120.00,24.00,,Delivered,app,in,user11@example.com,+91 9810328387,,L2,1
+ORD-1303,CUST-007 ,2026-05-18T14:50:00Z,tshirt_m,Cotton Tee M,-2,799,39.95,INR,Return,Website,US,,,,L2,1
+ORD-1189,CUST-011,,BTL-STL,Steel Bottle,5000,650.00,0.00,INR,Return,WEB,India,user11@example.com,,,L1,1
+ORD-1423,CUST-011,2026-05-13T22:41:00Z,NOTE-A5,Spiral Notebook A5,5,120,18.00,INR,Delivered,store,United States,user11@example.com,+91 9844894223,,L3,1
+ORD-1129,CUST-009,2026/05/23 05:46 -04:00,BTL-STL,Steel Bottle,2,650.00,15%,INR,TEST,app,US,,,,L1,1
+ORD-1007,CUST-011,2026-02-30T10:00:00Z,BTL-STL,Steel Bottle,2,Rs. 650,0.00,INR,Shipped,store,USA,user11@example.com,+91 9821003626,,L1,1
+ORD-1170,CUST-009,2026-05-30 17:03 +05:30,MUG-BLK,Blk Ceramic Mug,1,450.00,,inr,Pending,Website,in,user9@example.com,+91 9861561575,,L2,1
+ORD-1322,CUST09,2026-06-12T04:37:00Z,MUG-BLK,black ceramic mug,2,450.00,0.00,inr,Delivered,Website,USA,,,,L1,1
+ORD-1211,CUST-007,2026-06-02T03:34:00Z,TSHIRT-M,Cotton Tee M,1,799.00,79.90,INR,Shipped,web,IN,user7@example.com,,,L3,1
+ORD-1149,CUST-012,2026-05-06T09:18:00Z,hoodie_l,Hoodie L,2,1499.00,299.80,INR,Delivered,store,IN,user12@example.com,,,L1,1
+ORD-1086,cust-12,2026-06-12 21:34 +05:30,MUG-BLK,Black Ceramic Mug,1,450.00,0.00,INR,TEST,WEB,in,,,,L1,1
+ord-1462,,2026-05-10 06:14 +05:30,TSHIRT-M,cotton tee m,2,799,10%,Rs,Delivered,app,United States,user8@example.com,+91 9827806084,,L1,1
+ORD-1497,CUST08,2026-06-10 00:49 +05:30,TSHIRT-M,Cotton Tee M,5,799.00,39.95,INR,Shipped,web,in,user8@example.com,+91 9858098925,,L1,1
+ORD-1347,CUST-007,2026-06-04T14:36:00Z,BTL-STL,Steel Bottle,5000,650,65.00,INR,Delivered,store,United States,user7@example.com,+91 9869485073,,L2,1
+ ORD-1452 ,CUST-008,2026-02-30T10:00:00Z,BTL-STL,Steel Bottle,2,650.00,0.00,INR,Delivered,Website,USA,,,,L1,1
+ORD-1264,CUST-012,2026-05-13T13:24:00Z,btl_stl,Steel Bottle,2,650.00,,INR,Delivered,store,United States,user12@example.com,+91 9824276138,,L2,2
+ ORD-1489 ,CUST-95,2026-05-16T04:03:00Z,TSHIRT-M,Cotton Tee M,1,₹ 799.00,0.00,INR,Delivered,web,US,,,,L2,1
+ORD-1271,CUST-012,2026-06-01T15:23:00Z,btl_stl,Steel Bottle,1,650.00,130.00,Rs,Pending,web,USA,user12@example.com,+91 9818053170,,L1,1
+ORD-1459,CUST-012,2026-05-21T02:46:00Z,tshirt_m,Cotton Tee M,2,799.00,119.85,,Return,Website,USA,user12@example.com,+91 9885384682,,L1,1
+ORD-1131,CUST-008,2026-05-26T06:34:00Z,TSHIRT-M,Cotton Tee M,2,799,159.80,INR,Return,Website,US,user8@example.com,+91 9829574814,,L1,1
+ORD_1305,CUST-012,2026-06-07T03:42:00Z,note_a5,Spiral Notebook A5,2,120.00,0.00,Rs,Delivered,Website,United States,,,,L1,1
+ ORD-1303 ,CUST07,2026-05-18T14:50:00Z,BTL-STL,Steel Bottle,-2,₹650.00,5%,INR,return,Website,US,,,,L1,1
+ORD_1370,CUST-011,2026-02-30T10:00:00Z,HOODIE-L,Hoodie L,1,1499.00,224.85,INR,Return,Website,USA,,,,L1,1
+ORD-1102,CUST-009,2026-05-17T21:58:00Z,BTL-STL,Steel Bottle,0,650.00,15%,INR,Shipped,web,United States,user9@example.com,+91 9825808361,,L1,1
+ORD1427,,2026-06-12T03:02:00Z,BTL-STL,Steel Bottle,5,Rs. 650,0.00,inr,Cancelled,store,in,,,,L1,1
+ORD-1377,CUST-011,2026-05-03T15:48:00Z,BTL-STL,Steel Bottle,3,650.00,97.50,INR,TEST,web,India,,,,L1,1
+ORD_1260,,2026-05-18T21:56:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,5%,INR,CANCELLED,web,US,user11@example.com,+91 9896298460,pack,L2,1
+ORD-1366,CUST-010,2026-05-13T05:57:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,0.00,INR,Shipped,Mobile App,USA,user10@example.com,+91 9893054727,,L2,1
+ORD-1274,CUST-010,2026-05-11T21:10:00Z,BAG-01,Canvas Tote,2,18.00,0.00,USD,Delivered,WEB,United States,user10@example.com,+91 9820066099,,L2,1
+ORD-1027,CUST-009,2026-05-09T21:35:00-04:00,BAG-01,Canvas Tote,1,18.00,15%,USD,Shipped,web,India,,,,L2,1
+ORD_1260,CUST-011,2026/05/18 17:56 -04:00,XYZ-999,Hoodie L,1,₹ 1499.00,15%,INR,Cancelled,web,US,user11@example.com,+91 9896298460,,L1,1
+ORD-1301,cust-11,2026-05-23T13:57:00Z,BAG-01,Canvas Tote,5000,18.00,20%,USD,canceled,app,in,user11@example.com,+91 9873583349,,L3,1
+ORD-1468,CUST-008,,BTL-STL,Steel Bottle,1,650.00,0.00,INR,Shipped,Website,India,user8@example.com,+91 9846138454,,L2,1
+ORD-1409,CUST-99,2026-06-09T04:38:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,18.00,INR,Shipped,WEB,IN,,,,L2,1
+ORD-1136,CUST-010,2026-06-03T02:11:00Z,TSHIRT-M,Cotton Tee M,5,799.00,0.00,INR,weird,Website,in,user10@example.com,+91 9811976335,,L2,1
+ORD-1010,CUST-008,,TSHIRT-M,Cotton Tee M,2,799.00,0.00,INR,Shipped,web,US,user8@example.com,,,L1,1
+ORD-1170,cust-9,2026-05-30T11:33:00Z,MUG-BLK,black ceramic mug,5,450.00,10%,INR,Pending,Website,in,user9@example.com,+91 9861561575,,L1,1
+ ORD-1250 ,CUST-007,2026-02-30T10:00:00Z,XYZ-999,Spiral Notebook A5,1,120.00,12.00,INR,Delivered,store,in,user7@example.com,,,L1,1
+ORD1083,CUST-007 ,2026-05-11T09:28:00Z,MUG-BLK,Black Ceramic Mug,2,₹450.00,0.00,INR,Delivered,web,IN,,,,L1,2
+ORD1151,CUST-011,24-05-2026 21:41,HOODIE-L,Hoodie L,2,1499.00,0.00,INR,Return,web,USA,,,,L1,1
+ORD-1102,CUST-009,2026-05-17T21:58:00Z,hoodie_l,Hoodie L,5000,1499,0.00,INR,weird,web,United States,user9@example.com,+91 9825808361,,L3,1
+ord-1211,CUST-007,2026-06-02T03:34:00Z,BTL-STL,Steel Bottle,1,650.00,0.00,INR,Shipped,web,IN,user7@example.com,,,L1,1
+ORD-1444,CUST-009,2026-06-10T08:10:00Z,TSHIRT-M,cotton tee m,2,799.00,119.85,INR,TEST,WEB,United States,user9@example.com,,,L1,1
+ ORD-1221 ,cust-11,2026-05-20T22:59:00Z,mug_blk,Black Ceramic Mug,1,450.00,10%,INR,Delivered,Mobile App,USA,,,,L1,2
+ORD1266,CUST-012,2026/05/28 08:59 -04:00,XYZ-999,Cotton Tee  M,0,799.00,10%,INR,DELIVERED,web,United States,,,,L3,1
+ ORD-1188 ,CUST-007,2026-05-10T17:58:00-04:00,NOTE-A5,Spiral Notebook A5,-1,120.00,0.00,INR,cancelled,WEB,United States,user7@example.com,+91 9835288872,,L2,1
+ORD-1420,CUST-009,2026-05-29T17:47:00Z,BTL-STL,Steel Bottle,5,650,97.50,INR,Cancelled,Website,United States,,,,L1,1
+ORD1168,CUST-007,2026-05-04T22:21:00Z,TSHIRT-M,Cotton Tee M,1,799.00,5%,INR,Delivered,Mobile App,United States,,,,L1,1
+ORD-1356,CUST-011,2026-05-31T10:06:00Z,BTL-STL,Steel Bottle,3,₹ 650.00,,INR,shipped,Mobile App,United States,,,,L2,1
+ORD-1064,CUST-012,02-05-2026 11:56,note_a5,Spiral Notebook A5,2,120.00,5%,INR,Delivered,Website,USA,user12@example.com,,,L1,1
+ORD-1357,CUST-011,2026-06-12T01:07:00Z,XYZ-999,Steel Bottle,2,Rs. 650,130.00,INR,Delivered,app,in,user11@example.com,,,L1,1
+ORD-1476,CUST-010,2026-05-14T04:35:00Z,BTL-STL,Steel Bottle,2,₹650.00,0.00,,Delivered,app,USA,user10@example.com,+91 9854644060,,L2,1
+ORD-1047,CUST-007,2026-05-04T16:43:00Z,note_a5,Spiral Notebook A5,2,120.00,,INR,Delivered,store,India,user7@example.com,+91 9887412924,,L2,1
+ORD-1204,CUST-008,2026/06/01 23:05 -04:00,HOODIE-L,Hoodie L,1,"₹1,499.00",20%,INR,Delivered,Mobile App,in,user8@example.com,+91 9876425800,,L2,1
+ORD-1041,,2026-05-22T08:23:00Z,btl_stl,Steel Bottle,5,650.00,10%,inr,Delivered,app,India,user12@example.com,+91 9820633503,,L1,1
+ORD-1249,CUST-012,2026-06-12T12:38:00Z,HOODIE-L,Hoodie L,5,1499.00,,INR,Return,store,IN,,,,L1,1
+ORD-1180,CUST-010,2026-05-23T19:43:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,,INR,Pending,WEB,in,user10@example.com,+91 9881391010,,L2,1
+ORD-1113,CUST-007,2026-05-31T10:39:00Z,NOTE-A5,Spiral Notebook A5,2,120.00,0.00,inr,Delivered,WEB,India,user7@example.com,+91 9896203262,,L1,2
+ORD-1255,CUST-008 ,2026-05-25 14:51 +05:30,NOTE-A5,Spiral Notebook A5,2,120.00,24.00,INR,Delivered,store,United States,user8@example.com,+91 9846158213,,L1,2
+ORD-1059,CUST-011,2026-02-30T10:00:00Z,hoodie_l,Hoodie L,3,1499.00,10%,INR,weird,web,USA,user11@example.com,+91 9829374563,,L1,1
+ORD-1328,CUST-98,2026-05-02T16:07:00Z,btl_stl,Steel Bottle,1,650.00,10%,INR,test,Mobile App,India,,,,L1,1
+ORD-1009,CUST09,2026-06-10T21:55:00Z,NOTE-A5,Spiral Notebook A5,1,120.00,18.00,INR,Delivered,app,India,,,,L1,1
+ORD-1378,CUST-011,10-06-2026 00:35,TSHIRT-M,cotton tee m,2,799.00,,INR,Return,Website,US,user11@example.com,+91 9895509203,,L1,1
+ord-1034,CUST-009,2026-05-27T03:04:00Z,BAG-01,Canvas Tote,5,18.00,2.70,USD,canceled,WEB,United States,user9@example.com,+91 9885291541,,L2,1
+ORD-1050,CUST-012,2026-05-10 12:12 +05:30,NOTE-A5,Spiral Notebook A5,1,120.00,15%,INR,Shipped,store,United States,user12@example.com,,,L1,1
+ORD-1148,CUST-010,2026-05-26 17:55 +05:30,bag_01,Canvas Tote,2,18.00,20%,USD,Delivered,web,India,,,,L1,1
+ORD_1470,CUST-98,2026-06-03T02:59:00Z,BTL-STL,Steel Bottle,1,650.00,0.00,INR,Cancelled,web,India,,,,L2,1
+ORD1234,CUST-011,2026-05-10T20:06:00Z,hoodie_l,Hoodie L,5,"₹1,499.00",0.00,INR,cancelled,store,United States,user11@example.com,+91 9895200126,,L1,1
+ORD-1048,CUST-010,2026-05-28T00:38:00-04:00,btl_stl,Steel Bottle,1,Rs. 650,10%,INR,Pending,store,US,,,,L1,1

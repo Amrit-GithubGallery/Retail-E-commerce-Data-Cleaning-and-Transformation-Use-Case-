@@ -1,0 +1,68 @@
+Raw_Row_ID,Field,Raw_Value,Clean_Value,Rule
+1,Order_ID,ord-1042,ORD-1042,R1 trim / case / ID pattern
+1,Customer_ID,cust-07,CUST-007,R11 resolve to customer master
+1,Order_TS_UTC,2026/05/14 10:30 -04:00,2026-05-14T14:30:00Z,R2 parse + convert to UTC
+1,SKU,mug_blk,MUG-BLK,R3 canonical SKU
+1,Product,Blk Ceramic Mug,Black Ceramic Mug,R3 product name from catalogue
+1,Discount,10%,45.00,R5/R6 discount -> absolute per-unit amount
+1,Status,Delivered,DELIVERED,R10 status vocabulary
+2,Status,delivered,DELIVERED,R10 status vocabulary
+3,Order_ID,ord-1043,ORD-1043,R1 trim / case / ID pattern
+3,Customer_ID,cust-08,CUST-008,R11 resolve to customer master
+3,Order_TS_UTC,14-05-2026 09:15,,R2 parse + convert to UTC
+3,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+3,Status,Return,RETURN_REVIEW,R10 status vocabulary
+4,Customer_ID,CUST-09,CUST-009,R11 resolve to customer master
+4,Order_TS_UTC,2026-05-15T11:00:00+05:30,2026-05-15T05:30:00Z,R2 parse + convert to UTC
+4,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+4,Status,Shipped,SHIPPED,R10 status vocabulary
+5,Customer_ID,cust-10,CUST-010,R11 resolve to customer master
+5,Order_TS_UTC,2026-05-16T09:00:00+05:30,2026-05-16T03:30:00Z,R2 parse + convert to UTC
+5,Discount,5%,74.95,R5/R6 discount -> absolute per-unit amount
+5,Status,Delivered,DELIVERED,R10 status vocabulary
+6,Customer_ID,cust-10,CUST-010,R11 resolve to customer master
+6,Order_TS_UTC,2026-05-16T09:00:00+05:30,2026-05-16T03:30:00Z,R2 parse + convert to UTC
+6,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+6,Status,delivered,DELIVERED,R10 status vocabulary
+7,Order_TS_UTC,2026-05-17 08:00 +05:30,2026-05-17T02:30:00Z,R2 parse + convert to UTC
+7,SKU,MUG_BLK,MUG-BLK,R3 canonical SKU
+7,Discount,10%,45.00,R5/R6 discount -> absolute per-unit amount
+7,Status,Delivered,DELIVERED,R10 status vocabulary
+8,Customer_ID,cust-012,CUST-012,R11 resolve to customer master
+8,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+8,Status,Delivered,DELIVERED,R10 status vocabulary
+9,Customer_ID,cust-08,CUST-008,R11 resolve to customer master
+9,Qty,1,3,R4 base-unit quantity
+9,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+9,Status,Delivered,DELIVERED,R10 status vocabulary
+10,Customer_ID,cust-09,CUST-009,R11 resolve to customer master
+10,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+10,Status,Cancelled,CANCELLED,R10 status vocabulary
+11,Customer_ID,cust-99,,R11 resolve to customer master
+11,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+11,Status,Delivered,DELIVERED,R10 status vocabulary
+12,Customer_ID,cust-10,CUST-010,R11 resolve to customer master
+12,SKU,XYZ-999,,R3 canonical SKU
+12,Product,Mystery Item,,R3 product name from catalogue
+12,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+12,Status,Delivered,DELIVERED,R10 status vocabulary
+13,Customer_ID,cust-11,CUST-011,R11 resolve to customer master
+13,Discount,,,R5/R6 discount -> absolute per-unit amount
+13,Status,Delivered,DELIVERED,R10 status vocabulary
+14,Customer_ID,cust-12,CUST-012,R11 resolve to customer master
+14,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+15,Customer_ID,cust-10,CUST-010,R11 resolve to customer master
+15,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+15,Status,Shipped,SHIPPED,R10 status vocabulary
+16,Customer_ID,cust-10,CUST-010,R11 resolve to customer master
+16,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+16,Status,Delivered,DELIVERED,R10 status vocabulary
+17,Customer_ID,cust-09,CUST-009,R11 resolve to customer master
+17,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+17,Status,Delivered,DELIVERED,R10 status vocabulary
+18,Customer_ID,cust-09,CUST-009,R11 resolve to customer master
+18,Discount,0,0.00,R5/R6 discount -> absolute per-unit amount
+18,Status,Delivered,DELIVERED,R10 status vocabulary
+2,ROW,row 2,superseded by row 1,R8 duplicate order line
+15,ROW,row 15,superseded by row 16,R8 duplicate order line
+18,ROW,row 18,superseded by row 17,R8 duplicate order line

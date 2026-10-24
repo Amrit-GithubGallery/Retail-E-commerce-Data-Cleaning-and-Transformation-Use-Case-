@@ -1,0 +1,31 @@
+Dimension,Check,Result,Status,Detail
+Completeness,Order_ID populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Customer_ID populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Order_TS_UTC populated,100.0%,WARN,18 NULL of 112650 authoritative rows
+Completeness,SKU populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Qty populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Unit_Price populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Discount populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Currency populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Completeness,Status populated,100.0%,PASS,0 NULL of 112650 authoritative rows
+Validity,Rows with no blocking flag,100.0%,WARN,18 of 112650 rows in review queue
+Validity,Blocking flag: TS_DST_AMBIGUOUS,18,WARN,see exceptions table
+Validity,Order_TS_UTC format (YYYY-MM-DDTHH:MM:SSZ),True,PASS,
+Validity,Timestamps resolved by a declared assumption (source tz / date order),112632,INFO,"source_tz=America/Sao_Paulo, date_order=None; filter TS_Status for these rows"
+Validity,Discount basis,{'NOT_RECORDED_IN_SOURCE': 112650},INFO,"NOT_RECORDED_IN_SOURCE = source has no discount field; net = gross is then a documented policy, not a measurement"
+Uniqueness,Duplicate raw lines superseded,0,INFO,kept in `superseded` table with Duplicate_Of
+Uniqueness,Authoritative Line_Key unique,True,PASS,
+Uniqueness,"Possible duplicate lines (identical on order/SKU/time/qty/price, different line id)",17313,WARN,"not dropped: without a source line id, identical rows may be legitimate repeated scans"
+Consistency,Status within vocabulary,"['CANCELLED', 'DELIVERED', 'PENDING', 'SHIPPED', 'UNAVAILABLE']",PASS,
+Consistency,Currency within allowed set,['BRL'],PASS,
+Consistency,Order ID matches the configured ID rule,0,PASS,NULL = failed the ID rule
+Consistency,SKU / supplier / category keys exist in reference tables,True,PASS,
+Consistency,One currency per order,1,PASS,
+Consistency,Customer IDs resolve to master (non-null),True,PASS,
+Reconciliation,Raw rows = authoritative + superseded,112650 = 112650 + 0,PASS,
+Reconciliation,Authoritative = clean + review,112650 = 112632 + 18,PASS,
+Reconciliation,"Gross (all rows) - superseded = authoritative gross, by currency (exact integers)",{'BRL': 1359164370},PASS,
+Reconciliation,Gross by revenue class sums to authoritative gross (minor units),1359164370 vs 1359164370,PASS,
+Reconciliation,Display floats agree with minor-unit amounts,max |diff| = 0.000000,PASS,
+Reconciliation,Audit log entries (raw -> clean -> rule),8000,INFO,"capped counts: {'Order_TS_UTC': 112650, 'Product': 112650, 'Discount': 112650, 'Status': 112650}"
+Reconciliation,Payments vs order totals (exact minor units),"{'MATCH': 98077, 'PAID_MORE': 367, 'PAID_LESS': 210}",WARN,99.42% of orders with a known total match

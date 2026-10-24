@@ -1,0 +1,4 @@
+Return_ID,Flag,Severity,Detail
+RET-3,RETURN_UNMATCHED_LINE,BLOCKING,no clean fulfilled line for ORD-9999/MUG-BLK
+RET-4,RETURN_QTY_EXCEEDS_SOLD,BLOCKING,"returned=5 (+1 already linked), sold=2"
+RET-1,RETURN_DUPLICATE_ID,WARNING,raw row 5 dropped

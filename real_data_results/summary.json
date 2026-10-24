@@ -1,0 +1,119 @@
+{
+  "online_retail_ii": {
+    "dataset": "Online Retail II (UCI 502)",
+    "adapter_s": 5.7,
+    "raw_rows_total": 1067371,
+    "sales_rows": 1047877,
+    "credit_note_rows": 19494,
+    "pipeline_s": 72.9,
+    "rows_per_s": 14383,
+    "peak_mem_mb": 1867.6,
+    "disposition": {
+      "CLEAN": 1041645,
+      "REVIEW": 6232
+    },
+    "top_flags": "{('WARNING', 'CUSTOMER_ID_MISSING'): 242257, ('BLOCKING', 'INVALID_PRICE'): 6225, ('BLOCKING', 'INVALID_QTY'): 3457, ('WARNING', 'COUNTRY_UNMAPPED'): 2435, ('BLOCKING', 'QTY_OUT_OF_RANGE'): 9, ('WARNING', 'TS_TZ_ASSUMED'): 1}",
+    "ts_status": {
+      "OK_ASSUMED_TZ": 1047877
+    },
+    "credit_notes_linked": 0,
+    "credit_notes_total": 19494,
+    "dq_fail": 0,
+    "dq_warn": 7,
+    "dq_pass": 21,
+    "net_sales_gbp_total": 19859254.37,
+    "fulfilled_lines": 1037074,
+    "aov": [
+      {
+        "Orders": 39514,
+        "AOV": 502.59,
+        "Items_per_Order": 282.87
+      }
+    ],
+    "repeat_rate_overall_pct": 72.3,
+    "anomaly_days": {
+      "OK": 705,
+      "ANOMALY_HIGH": 17,
+      "NO_BASELINE": 14,
+      "ANOMALY_LOW": 3
+    },
+    "possible_dup_lines": 66472
+  },
+  "olist": {
+    "dataset": "Olist Brazilian E-Commerce (Kaggle olistbr/brazilian-ecommerce)",
+    "adapter_s": 1.2,
+    "order_item_lines": 112650,
+    "orders": 98666,
+    "pipeline_s": 9.5,
+    "rows_per_s": 11853,
+    "peak_mem_mb": 1016.9,
+    "disposition": {
+      "CLEAN": 112632,
+      "REVIEW": 18
+    },
+    "ts_status": {
+      "OK_ASSUMED_TZ": 112632,
+      "AMBIGUOUS_DST": 18
+    },
+    "top_flags": "{('BLOCKING', 'TS_DST_AMBIGUOUS'): 18, ('WARNING', 'TS_TZ_ASSUMED'): 1}",
+    "revenue_class": {
+      "FULFILLED": 110197,
+      "IN_PIPELINE": 1904,
+      "EXCLUDED": 549
+    },
+    "payments": 103886,
+    "payment_flags": {
+      "PAYMENT_UNMATCHED_ORDER": 830,
+      "PAYMENT_ZERO_AMOUNT": 9,
+      "PAYMENT_METHOD_UNMAPPED": 3
+    },
+    "payment_methods": {
+      "CARD": 78324,
+      "BANK_SLIP": 19784,
+      "VOUCHER": 5775,
+      "UNMAPPED": 3
+    },
+    "payment_recon": {
+      "MATCH": 98077,
+      "PAID_MORE": 367,
+      "PAID_LESS": 210
+    },
+    "shipments": 99441,
+    "shipment_eligible": 98477,
+    "shipment_flags": {
+      "SHIPMENT_UNMATCHED_ORDER": 775,
+      "SHIPPED_BEFORE_ORDERED": 166,
+      "DELIVERED_BEFORE_SHIPPED": 23,
+      "DELIVERED_WITHOUT_TIMESTAMP": 8
+    },
+    "fulfilment": [
+      {
+        "Carrier": "UNKNOWN",
+        "Shipments": 98477,
+        "Avg_Ship_to_Delivery_Days": 9.34,
+        "Median_Order_to_Delivery_Days": 10.23,
+        "On_Time_Rate_Pct": 91.9,
+        "Judged_On_Time": 96288,
+        "Excluded_Ineligible": 964
+      }
+    ],
+    "event_flags": {
+      "EVENT_BEFORE_PREDECESSOR": 5519,
+      "EVENT_TS_MISSING": 22,
+      "DUPLICATE_EVENT_TYPE": 0
+    },
+    "orders_with_contradictory_timestamps": 1382,
+    "dq_fail": 0,
+    "dq_warn": 5,
+    "dq_pass": 21,
+    "net_sales_brl_total": 13220126.62,
+    "repeat_rate_overall_pct": 3.0,
+    "customers_with_orders": 93346,
+    "payment_rates_note": "no payment status in source -> rates not computed",
+    "anomaly_days": {
+      "OK": 669,
+      "ANOMALY_HIGH": 31,
+      "NO_BASELINE": 14
+    }
+  }
+}

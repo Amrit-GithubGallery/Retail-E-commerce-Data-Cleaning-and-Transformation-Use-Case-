@@ -1,0 +1,33 @@
+Dimension,Check,Result,Status,Detail
+Completeness,Order_ID populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,Customer_ID populated,76.9%,WARN,242257 NULL of 1047877 authoritative rows
+Completeness,Order_TS_UTC populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,SKU populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,Qty populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,Unit_Price populated,99.4%,WARN,6225 NULL of 1047877 authoritative rows
+Completeness,Discount populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,Currency populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Completeness,Status populated,100.0%,PASS,0 NULL of 1047877 authoritative rows
+Validity,Rows with no blocking flag,99.4%,WARN,6232 of 1047877 rows in review queue
+Validity,Blocking flag: INVALID_PRICE,6225,WARN,see exceptions table
+Validity,Blocking flag: INVALID_QTY,3457,WARN,see exceptions table
+Validity,Blocking flag: QTY_OUT_OF_RANGE,9,WARN,see exceptions table
+Validity,Order_TS_UTC format (YYYY-MM-DDTHH:MM:SSZ),True,PASS,
+Validity,Timestamps resolved by a declared assumption (source tz / date order),1047877,INFO,"source_tz=Europe/London, date_order=None; filter TS_Status for these rows"
+Validity,Discount basis,{'NOT_RECORDED_IN_SOURCE': 1047877},INFO,"NOT_RECORDED_IN_SOURCE = source has no discount field; net = gross is then a documented policy, not a measurement"
+Uniqueness,Duplicate raw lines superseded,0,INFO,kept in `superseded` table with Duplicate_Of
+Uniqueness,Authoritative Line_Key unique,True,PASS,
+Uniqueness,"Possible duplicate lines (identical on order/SKU/time/qty/price, different line id)",66472,WARN,"not dropped: without a source line id, identical rows may be legitimate repeated scans"
+Consistency,Status within vocabulary,['COMPLETED'],PASS,
+Consistency,Currency within allowed set,['GBP'],PASS,
+Consistency,Order ID matches the configured ID rule,0,PASS,NULL = failed the ID rule
+Consistency,SKU / supplier / category keys exist in reference tables,True,PASS,reference is DERIVED from the data: unknown-key checks cannot fail
+Consistency,One currency per order,1,PASS,
+Consistency,Customer IDs resolve to master (non-null),True,PASS,customer master is DERIVED from the data
+Reconciliation,Raw rows = authoritative + superseded,1047877 = 1047877 + 0,PASS,
+Reconciliation,Authoritative = clean + review,1047877 = 1041645 + 6232,PASS,
+Reconciliation,"Gross (all rows) - superseded = authoritative gross, by currency (exact integers)",{'GBP': 2097259455},PASS,
+Reconciliation,Gross by revenue class sums to authoritative gross (minor units),2097259455 vs 2097259455,PASS,
+Reconciliation,Display floats agree with minor-unit amounts,max |diff| = 0.000000,PASS,
+Reconciliation,Audit log entries (raw -> clean -> rule),12000,INFO,"capped counts: {'Customer_ID': 1047877, 'Order_TS_UTC': 1047877, 'Product': 296122, 'Discount': 1047877, 'Status': 1047877, 'SKU': 3471}"
+Reconciliation,Returns: raw (deduped) = linked + exception,19494 = 0 + 19494,PASS,

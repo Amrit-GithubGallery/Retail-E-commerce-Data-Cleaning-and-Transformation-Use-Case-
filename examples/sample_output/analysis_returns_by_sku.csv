@@ -1,0 +1,7 @@
+SKU,Units_Sold,Units_Returned,Refund_Minor,Return_Rate_%,Refund
+BAG-01,2,0.0,0,0.0,0.0
+BTL-STL,2,0.0,0,0.0,0.0
+HOODIE-L,2,0.0,0,0.0,0.0
+MUG-BLK,6,1.0,40500,16.7,405.0
+NOTE-A5,3,0.0,0,0.0,0.0
+TSHIRT-M,2,1.0,79900,50.0,799.0

@@ -1,0 +1,14 @@
+pandas
+numpy
+
+[dev]
+pytest
+jupyter
+nbformat
+pycountry
+tzdata
+matplotlib
+
+[realdata]
+pycountry
+tzdata

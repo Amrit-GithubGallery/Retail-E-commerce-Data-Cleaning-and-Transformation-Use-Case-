@@ -1,0 +1,7 @@
+pytest
+jupyter
+nbformat
+matplotlib
+pycountry
+tzdata
+-e .

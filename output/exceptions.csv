@@ -1,0 +1,10 @@
+Raw_Row_ID,Order_ID,Flag,Severity,Detail
+3,ORD-1043,TS_AMBIGUOUS_NO_TZ,BLOCKING,raw='14-05-2026 09:15'
+3,ORD-1043,INVALID_QTY,BLOCKING,qty=-1 (<= 0): not treated as a sale
+3,ORD-1043,RETURN_ON_ORDER_LINE,BLOCKING,return status on an order line; link via returns table
+4,ORD-1044,FX_UNAVAILABLE,WARNING,no USD->INR rate for 2026-05-15
+11,ORD-2006,CUSTOMER_UNMATCHED,WARNING,"raw='cust-99' (kept NULL, not replaced)"
+11,ORD-2006,FX_UNAVAILABLE,WARNING,no USD->INR rate for 2026-05-19
+12,ORD-2007,SKU_UNKNOWN,BLOCKING,"raw sku='XYZ-999', product='Mystery Item'"
+13,ORD-2008,DISCOUNT_UNKNOWN,WARNING,raw=nan
+17,ORD-2011,CONFLICTING_DUPLICATE,BLOCKING,row 18 has same version but differs on ['Qty']
