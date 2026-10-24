@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Retail & E-commerce Data Cleaning and Transformation Pipeline
 
 A repeatable, auditable pandas pipeline that cleans raw retail order data, quarantines records it cannot safely resolve, links returns, payments and shipments to order lines, tests itself against the brief's test cases, reports data quality, and produces analytical outputs. Built for the *Retail & E-commerce Data Cleaning and Transformation Use Case* (20 cleaning scenarios, 15-16 transformations, TC01-TC10).
@@ -154,3 +155,6 @@ All sums use integer minor units; currencies are never mixed; only authoritative
 | `ZoneInfoNotFoundError` on Windows | `pip install tzdata` |
 | Memory pressure on 1M+ rows | `chunks=8, audit="capped", slim=True` |
 | USD/BRL rows have empty `Net_Reporting_Minor` | No FX rate for that date (intentional); pass `fx_rates` |
+=======
+# Retail-E-commerce-Data-Cleaning-and-Transformation-Use-Case-
+>>>>>>> c5d4765195d8a1b467fc22f223995a78217574e4
